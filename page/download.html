@@ -75,17 +75,19 @@
 
 <h3>jQuery Git</h3>
 
-<p>This work-in-progress build (known as jQuery Git) is generated once a minute from the <a href="http://github.com/jquery/jquery">jQuery Git repository</a>. It is provided as a convenience for anyone that wants to help test changes in the next version of jQuery.</p>
+<p>This work-in-progress build, known as jQuery Git, is generated once a minute from the <a href="http://github.com/jquery/jquery">jQuery Git repository</a>. It is provided as a convenience for anyone who wants to help test changes in the next version of jQuery.</p>
 
-<p>When reporting issues with WIP builds of jQuery, please make sure you include the date the snapshot was generated (it is listed at the top of the file).</p>
+<p>When reporting issues with jQuery Git builds of jQuery, please make sure you include the date and time the snapshot was generated (it is listed at the top of the file).</p>
 
-<p>Linking to WIP builds directly from the CDN is not advised, as the file is constantly refreshed and will change from minute to minute as new commits are made to the repository.</p>
+<p>Linking to jQuery Git builds directly from the CDN is not advised, as the file is constantly refreshed and may change from minute to minute as new commits are made to the repository.</p>
 
-<p><strong>WARNING:</strong> Do NOT use jQuery Git in a production system or live application! It is not tested. It is not stable. It will probably blow up on you unexpectedly. You have been warned! If in doubt, stop and use the current release.</p>
+<p><strong>WARNING:</strong> Do NOT use the jQuery Git build in a production system or live application! It is not tested. It is not stable. It will probably blow up on you unexpectedly. You have been warned! If in doubt, stop and use the current release.</p>
+
+<p>jQuery Git <a href="http://code.jquery.com/jquery-git.js">Uncompressed</a></p>
 
 <h3>Build from Git</h3>
 
-<p><strong>Note:</strong> The following is quite advanced. If you wish to just use a more-recent version of jQuery, please try the WIP build.</p>
+<p><strong>Note:</strong> The following is quite advanced. If you wish to just use a work-in-progress version of jQuery, please try the jQuery Git build instead.</p>
 
 <p>All source code is kept under Git revision control, which you can browse online. There's a download link available for any file or directory, if you only want to download a portion of the jQuery code.</p>
 
@@ -95,10 +97,11 @@
 git clone git://github.com/jquery/jquery.git
 </code></pre>
 
-<p>You can also check out a specific version of jQuery from GitHub at:</p>
+<p>You can also check out a specific version of jQuery from GitHub:</p>
 
 <pre><code data-lang="bash">
 git clone git://github.com/jquery/jquery.git
 git checkout 1.2.6
 </code></pre>
 
+<p>The repository's <a href="https://github.com/jquery/jquery/blob/master/README.md">README</a> has more information on building and testing your own jQuery, as well as links to core style guidelines and tips for patching bugs.</p>
