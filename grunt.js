@@ -37,7 +37,7 @@ var // modules
 
 	// files
 	resourceFiles = grunt.file.expandFiles( "resources/*" ),
-	distDir = grunt.config( "wordpress.dir" ) + "/posts/page";
+	distDir = grunt.config( "wordpress.dir" ) + "/posts/";
 
 function htmlEscape(text) {
    return text.replace(/&/g,'&amp;').
@@ -49,8 +49,8 @@ function htmlEscape(text) {
 
 grunt.registerTask( "build-pages", function() {
 	grunt.file.mkdir( distDir );
-	grunt.file.expand( "page/**.html" ).forEach(function( file ) {
-		grunt.file.copy( file, distDir + "/" + path.basename( file ), {
+	grunt.file.expand( "page/**/*.html" ).forEach(function( file ) {
+		grunt.file.copy( file, distDir + file, {
 			process: function( content ) {
 				return content.replace(/@partial\((.+)\)/g, function(match, input) {
 					return htmlEscape( grunt.file.read( input ) );
@@ -61,7 +61,7 @@ grunt.registerTask( "build-pages", function() {
 });
 
 grunt.registerTask( "build-pygmentize", function() {
-	grunt.utils.async.forEachSeries( grunt.file.expand( distDir + "/**.html" ), function( fileName, fileDone )  {
+	grunt.utils.async.forEachSeries( grunt.file.expand( distDir + "/**/*.html" ), function( fileName, fileDone )  {
 		grunt.verbose.write( "Pygmentizing " + fileName + "..." );
 		pygmentize.file( fileName, function( error, data ) {
 			if ( error ) {
