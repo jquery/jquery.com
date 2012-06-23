@@ -23,8 +23,8 @@ grunt.initConfig({
 	},
 	watch: {
 		pages: {
-			files: "page/*.html",
-			tasks: "deploy"
+			files: "dist/wordpress/posts/page/*.html",
+			tasks: "wordpress-publish"
 		}
 	},
 	"build-pages": {
