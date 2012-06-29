@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 /* main.html */
 
-.carousel {
+.carousel-container {
 	border: 1px solid #e6e6e6;
 	-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */
 	    -webkit-border-radius-top-left: 0; /* pre-Safari 5, delete unused */

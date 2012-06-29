@@ -23,3 +23,11 @@ var showcaseAnimation = function() {
 
     type();
 };
+
+(function($) {
+  $('.carousel').cycle({
+		fx: 'scrollLeft',
+		timeout: 0,
+		pager: '#nav'
+	});
+})(jQuery);
