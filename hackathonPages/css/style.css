@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* main.html */
 
 .carousel {
@@ -32,4 +33,9 @@
 	color: #86d1fc;
 	float: right;
 	font-weight: normal;
+=======
+/* Main Page */
+p.demo {
+  display: none;
+>>>>>>> Typing
 }
