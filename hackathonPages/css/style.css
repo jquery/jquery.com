@@ -1,0 +1,35 @@
+/* main.html */
+
+.carousel {
+	border: 1px solid #e6e6e6;
+	-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */
+	    -webkit-border-radius-top-left: 0; /* pre-Safari 5, delete unused */
+	   -webkit-border-radius-top-right: 0;
+	-webkit-border-radius-bottom-right: 5px;
+	 -webkit-border-radius-bottom-left: 5px;
+	                -moz-border-radius: 0 0 5px 5px;
+	                     border-radius: 0 0 5px 5px;
+	
+}
+
+.carousel h2 {
+	background: url(../img/repeating-header.jpg);
+	-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */
+	    -webkit-border-radius-top-left: 5px; /* pre-Safari 5, delete unused */
+	   -webkit-border-radius-top-right: 5px;
+	                -moz-border-radius: 5px 5px 0 0;
+	                     border-radius: 5px 5px 0 0;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	color: #fff;
+	display: inline-block;
+	padding: 15px;
+	width: 100%;
+}
+
+.carousel h2 small {
+	color: #86d1fc;
+	float: right;
+	font-weight: normal;
+}
