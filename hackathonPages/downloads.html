@@ -166,7 +166,126 @@
 
     <!-- body -->
 		<div id="body" class="clearfix">
-						
+		  <div>
+  		  <div>
+          <h2>CDN Hosted jQuery</h2>
+          <p>Below are links to the <a href="">CDN</a>-hosted copies of jQuery that you may hotlink to.</p>
+          <ul>
+            <li>
+              <a href="">Google Ajax API CDN</a>
+              <span>Support SSL via HTTPS (Documentation)</span>
+            </li>
+            <li>
+              <a href="">Microsoft CDN</a>
+              <span>Support SSL via HTTPS (Documentation)</span>
+            </li>
+            <li>
+              <a href="">jQuery CDN Minified</a> or <a href="">Full</a>
+              <span>via Media Temple</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <form>
+            <h2>Download jQuery</h2>
+            <ul>
+              <li>
+                <input type="radio" id="download-production" name="download-version"/>
+                <label for="download-production">Production <em>(32KB, Minified & GZipped)</em></label>
+              </li>
+              <li>
+                <input type="radio" id="download-development" name="download-version"/>
+                <label for="download-development">Development <em>(247KB, Uncompressed code)</em></label>
+              </li>
+            </ul>
+            <button type="button">Download</button>
+            <p>Current release: <a href="">v1.7.2</a></p>
+          </form>	
+        </div>
+      </div>
+      <div>
+        <h2>
+          About the Code
+        </h2>
+        <p>
+          The code itself is written cleanly in an attempt to self-document. If you've spotted some areas of code that could be inproved, please feel freeto discuss it on the <a href="">Development mailing list</a>. All input is gladly appreciated!
+        </p>
+        <p>
+          All the code is available in two formats
+          <ul>
+            <li>Compressed (which allows you to have a significantly smaller file size) and
+            <li>Uncompressed (good for debugging and to understand what is behind the magic)
+          </ul>
+        </p>
+        <p>
+          If your interested in downloading Plugins developed by jQuery contributors, please visit the <a href="">Plugins</a>page.
+        </p>
+        <p>
+          <i>jQuery is provided under the following MIT and GPL licenses.</i>
+        </p>      
+      </div>  
+      <div>
+        <h2>Advanced/Experimental Options</h2>
+        <ul>
+          <li>
+            <h3>Past Releases</h3>
+            <table cellpadding="0" cellspacing="0" border="0">
+              <thead>
+                <tr>
+                  <th>Version</th>
+                  <th>Docs</th>
+                  <th>Downloads</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.7.1</td>
+                  <td><a href="">Release Notes</a></td>
+                  <td><a href="">Minified</a><a href="">Uncompressed</a></td>
+                </tr>
+                <tr>
+                  <td>1.7</td>
+                  <td><a href="">Release Notes</a></td>
+                  <td><a href="">Minified</a><a href="">Uncompressed</a></td>
+                </tr>
+                <tr>
+                  <td>1.6.4</td>
+                  <td><a href="">Release Notes</a></td>
+                  <td><a href="">Minified</a><a href="">Uncompressed</a></td>
+                </tr>
+                <tr>
+                  <td>1.6.3</td>
+                  <td><a href="">Release Notes</a><a href="">Changelog</a></td>
+                  <td><a href="">Minified</a><a href="">Uncompressed</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li>
+            <h3>jQuery Git - Instant WIP Build for Testing</h3>
+            	<p>This work-in-progress build (known as jQuery Git) is generated once a minute from the <a href="http://github.com/jquery/jquery">jQuery Git repository</a>. It is provided as a convenience for anyone who wants to help test changes in the next version of jQuery.</p>
+            	<p>When reporting issues with WIP builds of jQuery, please make sure you include the date and time the snapshot was generated (it is listed at the top of the file).</p>
+            	<p>Linking to WIP builds directly from the CDN is not advised, as the file is constantly refreshed and will change from minute to minute as new commits are made to the repository.</p>
+            	<p><strong>WARNING:</strong> Do NOT use the jQuery Git build in a production system or live application! It is not tested. It is not stable. It will probably blow up on you unexpectedly. You have been warned! If in doubt, stop and use the <a href="">current release</a>.</p>
+          </li>
+          <li>
+            <h3>Build from Git</h3>
+          	<p><strong>Note:</strong> The following is quite advanced. If you wish to just use a more-recent version of jQuery, please try the WIP build.</p>
+          	<p>All source code is kept under Git revision control, which you can <a href="">browse online</a>. There's a download link available for any file or directory, if you only want to download a portion of the jQuery code.</p>
+          	<p>If you have access to Git, you can connect to the repository here:</p>
+      	    <ol>
+      	      <li>git clone git://github.com/jquery/jquery.git</li>
+      	    </ol>
+          	<p>You can also check out a specific version of jQuery from GitHub:</p>
+          	<ol>
+          	  <li>git clone git://github.com/jquery/jquery.git</li>
+          	  <li>git checkout &lt;version&gt;</li>
+          	  <li>e.g. git checkout 1.2.6</li>
+          	</ol>
+          	<p>etc.....</p>
+          </li>
+        </ul>
+      </div>			
 		</div><!-- #body -->
 
 </div>
