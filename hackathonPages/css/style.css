@@ -113,10 +113,28 @@ h2 {
 	font-weight: normal;
 }
 
-p.demo {
-  display: none;
+header {
+  height: 200px;
+  width: 100%;
 }
 
+#demo {
+  margin-top: 20px;
+  height: 65px;
+  width: 100%;
+  background-color: #000;
+  font-size: 36px;
+  padding: 15px 0 0 100px;
+  font-family: Inconsolata;
+}
+
+p.demo {
+  display: none;
+  font-size: 48px;
+  font-weight: bold;
+  color: #E01B6A;
+  margin: 30px 0 0 30px;
+}
 
 /* BROWSER SUPPORT PAGE START */
 #browserSupport.central {
