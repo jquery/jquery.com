@@ -1,0 +1,232 @@
+<<<<<<< HEAD
+/*
+ *	Feature Grid CSS for jQuery.com
+ *	Written mostly by; Jeff Cann!
+ */
+ .clearfix ul,
+ .clearfix li {
+ 	list-style: none;
+ 	margin:  0;
+ 	padding: 0;
+ }
+h2 {
+	clear: both;
+}
+.fiveFeatureGrid ul > li {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color: black;
+	width: 20%;
+	min-width: 140px;
+}
+.fiveFeatureGrid ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+.fiveFeatureGrid ul li a img {
+	display: block;
+	width: 100px;
+	height: 75px;
+	background: lightgray;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fiveFeatureGrid ul li a span {
+	display: block;
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+.fiveFeatureGrid ul li a p {
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.threeFeatureGrid ul li {
+	display: inline-block;
+	color: black;
+	width: 250px;
+}
+.threeFeatureGrid ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+.threeFeatureGrid ul li a img {
+	display: block;
+	width: 100px;
+	height: 75px;
+	background: lightgray;
+	float: left;
+}
+.threeFeatureGrid ul li a > span {
+	float: left;
+	margin-left: 5px;
+}
+.threeFeatureGrid ul li a span span {
+	text-align: left;
+	color: blue;
+	font-weight: bold;
+	width: 140px;
+}
+.threeFeatureGrid ul li a span p {
+	text-align: left;
+	word-wrap: break-word;
+	width: 140px;
+}
+=======
+/* main.html */
+
+.carousel-container {
+	border: 1px solid #e6e6e6;
+	-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */
+	    -webkit-border-radius-top-left: 0; /* pre-Safari 5, delete unused */
+	   -webkit-border-radius-top-right: 0;
+	-webkit-border-radius-bottom-right: 5px;
+	 -webkit-border-radius-bottom-left: 5px;
+	                -moz-border-radius: 0 0 5px 5px;
+	                     border-radius: 0 0 5px 5px;
+	
+}
+
+.carousel h2 {
+	background: url(../img/repeating-header.jpg);
+	-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */
+	    -webkit-border-radius-top-left: 5px; /* pre-Safari 5, delete unused */
+	   -webkit-border-radius-top-right: 5px;
+	                -moz-border-radius: 5px 5px 0 0;
+	                     border-radius: 5px 5px 0 0;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	color: #fff;
+	display: inline-block;
+	padding: 15px;
+	width: 100%;
+}
+
+.carousel h2 small {
+	color: #86d1fc;
+	float: right;
+	font-weight: normal;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+}
+
+#demo {
+  margin-top: 20px;
+  height: 65px;
+  width: 100%;
+  background-color: #000;
+  font-size: 36px;
+  padding: 15px 0 0 100px;
+  font-family: Inconsolata;
+}
+
+p.demo {
+  display: none;
+  font-size: 48px;
+  font-weight: bold;
+  color: #E01B6A;
+  margin: 30px 0 0 30px;
+}
+
+/* BROWSER SUPPORT PAGE START */
+#browserSupport.central {
+    font-size: 14px;
+    padding:40px;
+    width:830px;
+}
+
+#browserSupport h2 {
+    color:#d68f49;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+#browserSupport .featured-box {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #000;
+    background-image:url(../images/box-content-bg-tile.png);
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+    margin-bottom:35px;
+}
+
+#browserSupport .indented-content {
+    padding-left:5px;
+}
+
+
+#browserSupport .divider {
+    height:15px;
+    background-image:url(../images/divider-bg.png);
+    margin:30px 0 30px -5px;
+}
+
+
+#browserSupport .featured-box h3 {
+    background: black;
+    padding:15px;
+    text-align: center;
+    color:white;
+    font-size:22px;
+}
+
+#browserSupport .featured-box .featured-box-inner {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #666666;
+}
+
+#browserSupport .featured-box .featured-box-content {
+    padding:21px 0 40px 50px;
+}
+
+#browserSupport .featured-box .icon-box .browser-version {
+    color:#939393;
+    padding:0;
+    margin: 0;
+}
+
+#browserSupport .featured-box .icon-box .browser-title {
+    color:white;
+    padding:0;
+    margin: 0;
+}
+
+#browserSupport .featured-box .icon-box {
+    float: left;
+    margin-right:90px;
+    text-align: center;
+}
+
+#browserSupport .featured-box .icon-box:last-child {
+    margin-right:0;
+}
+
+#browserSupport h4 {
+    font-size:22px;
+}
+
+#browserSupport h5 {
+    font-size:18px;
+    color:#666666;
+    margin-bottom:15px;
+}
+
+#browserSupport ul li {
+    list-style-image: url(../images/list-bullet.png);
+    margin-bottom:10px;
+}
+
+/* BROWSER SUPPORT PAGE END */
+>>>>>>> 62e34967ac63b1e407f3e87b92cae47a38e3a19e
