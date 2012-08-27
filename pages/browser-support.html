@@ -3,13 +3,24 @@
 	"title": "Browser Support"
 }
 </script>
-
-<div>
+<style>
+#jq-intro li { text-align: center; }
+#jq-intro li div { font-size: 2em; height: 3em; width:162px; display: table-cell; text-align: center; vertical-align: middle; }
+#jq-intro li span { display: block; }
+#jq-intro li { width: 162px; font-size: 12px; line-height: 1.4 !important; margin: 1.2em 0 !important; }
+#jq-intro { width:auto; margin-bottom: 0; }
+#jq-primaryContent { width: auto; }
+</style>
+<div id="jq-intro">
 	<h2>Current Active Support</h2>
 	<ul>
 		<li>
+			<div>Chrome</div>
+			<span>Current −1 version</span>
+		</li>
+		<li>
 			<div>Firefox</div>
-			<span>Current &#8722;1 version</span>
+			<span>Current −1 version</span>
 		</li>
 		<li>
 			<div>Internet Explorer</div>
@@ -17,52 +28,38 @@
 		</li>
 		<li>
 			<div>Safari</div>
-			<span>Current &#8722;1 version</span>
-		</li>
-		<li>
-			<div>Chrome</div>
-			<span>Current &#8722;1 version</span>
+			<span>Current −1 version</span>
 		</li>
 		<li>
 			<div>Opera</div>
-			<span>Current &#8722;1 version</span>
+			<span>Current −1 version</span>
 		</li>
 	</ul>
 </div>
-
-<p>Any problem with jQuery in the above browsers should be considered and reported as a bug in jQuery.</p>
-
-<hr>
-
-<h2>Unsupported Browsers</h2>
-
-<p>While jQuery <em>might</em> run without major issues in older browser versions, we do not actively test jQuery in them and will not fix bugs that may appear in them. Any problem with jQuery reported in browsers that aren't included in the above list may be closed without discussion as "<em>won't fix</em>." </p>
-
-<hr>
-
-<h2>Known Issues</h2>
-
-<p>The following browsers are known to have significant problems running jQuery:</p>
-<ul>
-	<li>Mozilla Firefox 1.0.x</li>
-	<li>Internet Explorer 1.0-5.x</li>
-	<li>Safari 1.0-2.0.1</li>
-	<li>Opera 1.0-9.x</li>
-	<li>Konqueror</li>
-</ul>
-
-<hr>
-
-<h2>About CSS &amp; Browser Compatibility</h2>
-
-<p>Regardless of a browser's support of CSS selectors, all selectors listed at <a href="http://api.jquery.com/category/selectors/">api.jquery.com/category/selectors/</a> will return the correct set of elements when passed as an argument of the <code>jQuery</code> function.</p>
-
-<p>CSS styles applied with jQuery's <code>.css()</code> method are dependent on the browser's level of support. In general, jQuery does not attempt to overcome the limitations of a browser's style rendering (one exception is opacity, which jQuery "shims" for older Internet Explorer's alternative implementation). Furthermore, prior to version 1.8, jQuery does not normalize vendor-prefixed properties.</p>
-
-<h3>External References</h3>
-<ul>
-	<li><a href="http://www.quirksmode.org/css/contents.html">CSS contents and browser compatibility</a></li>
-	<li><a href="http://en.wikipedia.org/wiki/Comparison_of_layout_engines_%28Cascading_Style_Sheets%29">Comparison of layout engines (Cascading Style Sheets)</a></li>
-	<li><a href="http://en.wikipedia.org/wiki/Acid3">Acid3</a></li>
-	<li><a href="http://www.dizi-izle-film-izle.net/">Diziler about CSS and Browser compatibility (Videos)</a></li>
-</ul>
+<div id="jq-primaryContent">
+	<p>Any problem with jQuery in the above browsers should be considered and reported as a bug in jQuery.</p>
+	<hr>
+	<h2>Unsupported Browsers</h2>
+	<p>While jQuery <em>might</em> run without major issues in older browser versions, we do not actively test jQuery in them and will not fix bugs that may appear in them. Any problem with jQuery reported in browsers that aren't included in the above list may be closed without discussion as "<em>won't fix</em>." </p>
+	<hr>
+	<h2>Known Issues</h2>
+	<p>The following browsers are known to have significant problems running jQuery:</p>
+	<ul>
+		<li>Mozilla Firefox 1.0.x</li>
+		<li>Internet Explorer 1.0-5.x</li>
+		<li>Safari 1.0-2.0.1</li>
+		<li>Opera 1.0-9.x</li>
+		<li>Konqueror</li>
+	</ul>
+	<hr>
+	<h2>About CSS &amp; Browser Compatibility</h2>
+	<p>Regardless of a browser's support of CSS selectors, all selectors listed at <a href="http://api.jquery.com/category/selectors/">api.jquery.com/category/selectors/</a> will return the correct set of elements when passed as an argument of the <code>jQuery</code> function.</p>
+	<p>CSS styles applied with jQuery's <code>.css()</code> method are dependent on the browser's level of support. In general, jQuery does not attempt to overcome the limitations of a browser's style rendering (one exception is opacity, which jQuery "shims" for older Internet Explorer's alternative implementation). Furthermore, prior to version 1.8, jQuery does not normalize vendor-prefixed properties.</p>
+	<h3>External References</h3>
+	<ul>
+		<li><a href="http://www.quirksmode.org/css/contents.html">CSS contents and browser compatibility</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Comparison_of_layout_engines_%28Cascading_Style_Sheets%29">Comparison of layout engines (Cascading Style Sheets)</a></li>
+		<li><a href="http://en.wikipedia.org/wiki/Acid3">Acid3</a></li>
+		<li><a href="http://www.dizi-izle-film-izle.net/">Diziler about CSS and Browser compatibility (Videos)</a></li>
+	</ul>
+</div>

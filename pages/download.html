@@ -3,105 +3,97 @@
 	"title": "Download jQuery"
 }
 </script>
-<div>
-	<div>
-		<h2>CDN Hosted jQuery</h2>
-		<p>Below are links to the <a href="http://en.wikipedia.org/wiki/Content_delivery_network">CDN</a>-hosted copies of jQuery that you may hotlink to.</p>
-		<ul>
-			<li>
-				<div><a>Google Ajax Libraries API CDN</a></div>
-				<span>Supports SSL via HTTPS (<a href="http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery">Documentation</a>)</span>
-			</li>
-			<li>
-				<div><a>Microsoft CDN</a></div>
-				<span>Supports SSL via HTTPS (<a href="http://www.asp.net/ajaxlibrary/cdn.ashx">Documentation</a>)</span>
-			</li>
-			<li>
-				<div><a href="http://code.jquery.com/jquery-1.7.2.min.js">jQuery CDN Minified</a> or <a href="http://code.jquery.com/jquery-1.7.2.js">Full</a></div>
-				<span>via <a href="http://mediatemple.net/">Media Temple</a></span>
-			</li>
-		</ul>
-	</div>
-	<div>
-		<form>
-		<h2>Download jQuery</h2>
-		<p>Current Release: <a href="#">v1.7.2 (Release Notes)</a></p>
-		<div>
-			<input type="radio" name="name" value="http://code.jquery.com/jquery-1.7.2.min.js" id="jq-production" checked="checked">
-			<a href="http://code.jquery.com/jquery-1.7.2.min.js">jquery-1.7.2.min.js</a>
-			<label for="jq-production">Production <em>(<strong>32KB</strong>, Minified and Gzipped)</em></label>
-		</div>
-		<div>
-			<input type="radio" name="name" value="http://code.jquery.com/jquery-1.7.2.js" id="jq-development">
-			<a href="http://code.jquery.com/jquery-1.7.2.js">jquery-1.7.2.js</a>
-			<label for="jq-development">Development <em>(<strong>247KB</strong>, Uncompressed Code)</em></label>
-		</div>
-		<button type="submit" id="jq-downloadBtn"><span>Download</span></button>
-		</form>
-	</div>
+<style>
+#jq-intro ul { margin-left: 1.5em; padding-top: 0; }
+#jq-intro li a { display: inline; float: none; margin: 0.2em; padding: 0; padding-left:2em; }
+#jq-intro li span { display: block; float: none; margin-left: 2.2em; }
+#jq-intro li span a { background: none; padding-left: 0; }
+#jq-intro li { float: none; font-size: 12px; line-height: 1.4 !important; margin: 1.2em 0 !important; }
+#jq-intro, #jq-download { margin-bottom: 0; }
+#jq-download { margin-top: 0.2em; }
+#jq-primaryContent td { margin-top: 0; padding: 0.5em 1em; }
+.syntaxhighlighter { border: 1px solid #000; }
+</style>
+<div id="jq-intro">
+	<h2>CDN Hosted jQuery</h2>
+	<p>Below are links to the <a href="http://en.wikipedia.org/wiki/Content_delivery_network">CDN</a>-hosted copies of jQuery that you may hotlink to.</p>
+	<ul>
+		<li>
+			<div><a href="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">Google Ajax Libraries API CDN</a></div>
+			<span>Supports SSL via HTTPS (<a href="http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery">Documentation</a>)</span>
+		</li>
+		<li>
+			<div><a href="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.min.js">Microsoft CDN</a></div>
+			<span>Supports SSL via HTTPS (<a href="http://www.asp.net/ajaxlibrary/cdn.ashx">Documentation</a>)</span>
+		</li>
+		<li>
+			<div><a href="http://code.jquery.com/jquery-1.8.0.min.js">jQuery CDN Minified</a> or <a style="background:none;padding-left:0;" href="http://code.jquery.com/jquery-1.8.0.js">Full</a></div>
+			<span>via <a href="http://mediatemple.net/">Media Temple</a></span>
+		</li>
+	</ul>
 </div>
-
-<hr>
-
-<h2>About the Code</h2>
-
-<p>The code itself is written rather cleanly in an attempt to self-document. If you've spotted some areas of code that could be improved, please feel free to discuss it on the <a href="https://forum.jquery.com/developing-jquery-core">Developing jQuery Core Forum</a>. All input is gladly appreciated!</p>
-
-<p>All of the code is available in two formats:</p>
-
-<ul>
-	<li>Compressed (which allows you to have a significantly smaller file size) and</li>
-	<li>Uncompressed (good for debugging and to understand what is behind the magic).</li>
-</ul>
-
-<p>If you're interested in downloading Plugins developed by jQuery contributors, please visit the <a href="http://plugins.jquery.com/">Plugins site</a>.</p>
-
-<p><em>jQuery is provided under the <a href="http://jquery.org/license">MIT or GPL license</a>.</em></p>
-
-<hr>
-
-<h2>Advanced/Experimental Options</h2>
-
-<h3>Past Releases</h3>
-<table>
-	<thead><tr><th>Version</th><th>Docs</th><th>Downloads</th></tr></thead>
-	<tbody>
-		<tr><td>1.7.2</td><td><a href="http://blog.jquery.com/2012/03/21/jquery-1-7-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.7.2.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.7.2.js">Uncompressed</a></td></tr>
-		<tr><td>1.7.1</td><td><a href="http://blog.jquery.com/2011/11/21/jquery-1-7-1-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.7.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.7.1.js">Uncompressed</a></td></tr>
-		<tr><td>1.6.4</td><td><a href="http://blog.jquery.com/2011/09/12/jquery-1-6-4-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.6.4.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.6.4.js">Uncompressed</a></td></tr>
-		<tr><td>1.6.3</td><td><a href="http://blog.jquery.com/2011/09/01/jquery-1-6-3-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.6.3.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.6.3.js">Uncompressed</a></td></tr>
-	</tbody>
-</table>
-
-<h3>jQuery Git</h3>
-
-<p>This work-in-progress build, known as jQuery Git, is generated once a minute from the <a href="http://github.com/jquery/jquery">jQuery Git repository</a>. It is provided as a convenience for anyone who wants to help test changes in the next version of jQuery.</p>
-
-<p>When reporting issues with jQuery Git builds of jQuery, please make sure you include the date and time the snapshot was generated (it is listed at the top of the file).</p>
-
-<p>Linking to jQuery Git builds directly from the CDN is not advised, as the file is constantly refreshed and may change from minute to minute as new commits are made to the repository.</p>
-
-<p><strong>WARNING:</strong> Do NOT use the jQuery Git build in a production system or live application! It is not tested. It is not stable. It will probably blow up on you unexpectedly. You have been warned! If in doubt, stop and use the current release.</p>
-
-<p>jQuery Git <a href="http://code.jquery.com/jquery-git.js">Uncompressed</a></p>
-
-<h3>Build from Git</h3>
-
-<p><strong>Note:</strong> The following is quite advanced. If you wish to just use a work-in-progress version of jQuery, please try the jQuery Git build instead.</p>
-
-<p>All source code is kept under Git revision control, which you can browse online. There's a download link available for any file or directory, if you only want to download a portion of the jQuery code.</p>
-
-<p>If you have access to Git, you can connect to the repository here:</p>
-
-<pre><code data-lang="bash">
-git clone git://github.com/jquery/jquery.git
+<div id="jq-download">
+	<h2>Download jQuery</h2>
+	<form action="/" method="get">
+		<fieldset>
+			<legend>Choose your compression level:</legend>
+			<div id="jq-compression" class="jq-clearfix">
+				<input type="radio" name="name" value="http://code.jquery.com/jquery-1.8.0.min.js" id="jq-production" checked="checked">
+				<a class="jq-radioToggle name jq-checked" href="http://code.jquery.com/jquery-1.8.0.min.js">jquery-1.8.0.min.js</a>
+				<label for="jq-production">Production <em>(<strong>32KB</strong>, Minified and Gzipped)</em></label>
+				<input type="radio" name="name" value="http://code.jquery.com/jquery-1.8.0.js" id="jq-development">
+				<a class="jq-radioToggle name" href="http://code.jquery.com/jquery-1.8.0.js">jquery-1.8.0.js</a>
+				<label for="jq-development">Development <em>(<strong>247KB</strong>, Uncompressed Code)</em></label>
+			</div>
+			<button type="submit" name="downloadBtn" id="jq-downloadBtn"><span>Download</span></button>
+			<p class="jq-version"><strong>Current Release:</strong> v1.8.0</p>
+		</fieldset>
+	</form>
+	<script>
+	jQuery("#jq-download form").submit(function(){
+		window.location = jQuery(this).find("input:checked").val();
+		return false;
+	});
+	</script>
+</div>
+<div id="jq-primaryContent" style="width:auto">
+	<h2>About the Code</h2>
+	<p>The code itself is written rather cleanly in an attempt to self-document. If you've spotted some areas of code that could be improved, please feel free to discuss it on the <a href="https://forum.jquery.com/developing-jquery-core">Developing jQuery Core Forum</a>. All input is gladly appreciated!</p>
+	<p>All of the code is available in two formats:</p>
+	<ul>
+		<li>Compressed (which allows you to have a significantly smaller file size) and</li>
+		<li>Uncompressed (good for debugging and to understand what is behind the magic).</li>
+	</ul>
+	<p>If you're interested in downloading Plugins developed by jQuery contributors, please visit the <a href="http://plugins.jquery.com/">Plugins site</a>.</p>
+	<p><em>jQuery is provided under the <a href="http://jquery.org/license">MIT or GPL license</a>.</em></p>
+	<hr>
+	<h2>Advanced/Experimental Options</h2>
+	<h3>Past Releases</h3>
+	<table>
+		<thead><tr><th>Version</th><th>Docs</th><th>Downloads</th></tr></thead>
+		<tbody>
+			<tr><td>1.8.0</td><td><a href="http://blog.jquery.com/2012/08/09/jquery-1-8-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.0.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.0.js">Uncompressed</a></td></tr>
+			<tr><td>1.7.2</td><td><a href="http://blog.jquery.com/2012/03/21/jquery-1-7-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.7.2.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.7.2.js">Uncompressed</a></td></tr>
+			<tr><td>1.7.1</td><td><a href="http://blog.jquery.com/2011/11/21/jquery-1-7-1-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.7.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.7.1.js">Uncompressed</a></td></tr>
+			<tr><td>1.6.4</td><td><a href="http://blog.jquery.com/2011/09/12/jquery-1-6-4-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.6.4.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.6.4.js">Uncompressed</a></td></tr>
+			<tr><td>1.6.3</td><td><a href="http://blog.jquery.com/2011/09/01/jquery-1-6-3-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.6.3.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.6.3.js">Uncompressed</a></td></tr>
+		</tbody>
+	</table>
+	<h3>jQuery Git</h3>
+	<p>This work-in-progress build, known as jQuery Git, is generated once a minute from the <a href="http://github.com/jquery/jquery">jQuery Git repository</a>. It is provided as a convenience for anyone who wants to help test changes in the next version of jQuery.</p>
+	<p>When reporting issues with jQuery Git builds of jQuery, please make sure you include the date and time the snapshot was generated (it is listed at the top of the file).</p>
+	<p>Linking to jQuery Git builds directly from the CDN is not advised, as the file is constantly refreshed and may change from minute to minute as new commits are made to the repository.</p>
+	<p><strong>WARNING:</strong> Do NOT use the jQuery Git build in a production system or live application! It is not tested. It is not stable. It will probably blow up on you unexpectedly. You have been warned! If in doubt, stop and use the current release.</p>
+	<p>jQuery Git <a href="http://code.jquery.com/jquery-git.js">Uncompressed</a></p>
+	<h3>Build from Git</h3>
+	<p><strong>Note:</strong> The following is quite advanced. If you wish to just use a work-in-progress version of jQuery, please try the jQuery Git build instead.</p>
+	<p>All source code is kept under Git revision control, which you can browse online. There's a download link available for any file or directory, if you only want to download a portion of the jQuery code.</p>
+	<p>If you have access to Git, you can connect to the repository here:</p>
+	<pre><code data-lang="bash">git clone git://github.com/jquery/jquery.git
 </code></pre>
-
-<p>You can also check out a specific version of jQuery from GitHub:</p>
-
-<pre><code data-lang="bash">
-git clone git://github.com/jquery/jquery.git
+	<p>You can also check out a specific version of jQuery from GitHub:</p>
+	<pre><code data-lang="bash">git clone git://github.com/jquery/jquery.git
 git checkout 1.2.6
 </code></pre>
-
-<p>The repository's <a href="https://github.com/jquery/jquery/blob/master/README.md">README</a> has more information on building and testing your own jQuery, as well as links to core style guidelines and tips for patching bugs.</p>
+	<p>The repository's <a href="https://github.com/jquery/jquery/blob/master/README.md">README</a> has more information on building and testing your own jQuery, as well as links to core style guidelines and tips for patching bugs.</p>
+</div>
