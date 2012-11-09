@@ -4,6 +4,7 @@ grunt.loadNpmTasks( "grunt-clean" );
 grunt.loadNpmTasks( "grunt-html" );
 grunt.loadNpmTasks( "grunt-wordpress" );
 grunt.loadNpmTasks( "grunt-jquery-content" );
+grunt.loadNpmTasks( "grunt-check-modules" );
 
 grunt.initConfig({
 	clean: {
@@ -39,7 +40,7 @@ grunt.initConfig({
 });
 
 grunt.registerTask( "default", "lint" );
-grunt.registerTask( "build-wordpress", "clean lint build-pages build-resources");
+grunt.registerTask( "build-wordpress", "check-modules clean lint build-pages build-resources");
 grunt.registerTask( "deploy", "wordpress-deploy" );
 
 };
