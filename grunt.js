@@ -41,7 +41,7 @@ grunt.initConfig({
 	}, grunt.file.readJSON( "config.json" ) )
 });
 
-grunt.registerTask( "default", "lint" );
+grunt.registerTask( "default", "lint wordpress-deploy" );
 grunt.registerTask( "build-wordpress", "check-modules clean lint build-pages build-resources");
 grunt.registerTask( "deploy", "wordpress-deploy" );
 
