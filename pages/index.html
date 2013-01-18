@@ -12,18 +12,15 @@
       <a href="http://code.jquery.com/jquery.min.js" class="button large">
         <span class="download"></span>
         Download jQuery
-        <span>v1.8.3 32kB Minified</span>
+        <span>v1.9.0 32kB Minified</span>
       </a>
-      <div class="download-option download-legacy">
+      <div class="download-options">
         <a href="http://code.jquery.com/jquery.js">Download Un-minified Copy</a>
-      </div>
-      <div class="download-option download-github">
         <a href="http://github.com/jquery/jquery">View Source on GitHub →</a>
       </div>
-    </div>
-    <div class="download-help">
-      <h3>Need Help Including jQuery?</h3>
-      <a href="http://learn.jquery.com/about-jquery/how-jquery-works/">How jQuery Works →</a>
+      <div class="download-help">
+        <a href="http://learn.jquery.com/about-jquery/how-jquery-works/">How jQuery Works →</a>
+      </div>
     </div>
   </div>
   <div class="features-box row eight columns pull-four">
@@ -48,38 +45,10 @@
 </div>
 <div id="home-content" class="clearfix">
   <section class="eight columns">
-    <h2>What <em>is</em> jQuery?</h2>
+    <h2>What is jQuery?</h2>
     <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation,
     and ajax much simpler. It also exposes an easy to use API that works across a multitude of browsers.<p>
-    <h2>A Brief Look</h2>
-
-    <h3>DOM Traversal and Manipulation</h3>
-    <p>Get the <code>&lt;button&gt;</code> element with the class 'continue' and change its HTML to 'Next Step...'</p>
-    <pre><code>$( 'button.continue' ).html( 'Next Step...' )</code></pre>
-
-    <h3>Event Handling</h3>
-    <p>Show the element <code>#banner-message</code> that is hidden with <code>display:none</code> in its CSS when any link in <code>#link-container</code> is
-       clicked.</p>
-    <pre><code>
-var hiddenBox = $( '#banner-message' );
-$( '#link-container a' ).on( 'click', function( event ) {
-  hiddenBox.show();
-});
-</pre></code>
-
-    <h3>Ajax</h3>       
-    <p>Call a local script on the server <code>/api/getWeather</code> with the query parameter <code>zipcode=97201</code> and replace the element <code>#weather-temp</code>'s
-       html with the returned text.</p>
-    <pre><code>
-$.ajax({
-  url: '/api/getWeather',
-  data: { zipcode: 97201 },
-  success: function( data ) {
-    $( '#weather-temp' ).html( data + ' degrees' );
-  }
-});
-</pre></code>
-
+    <p>It's also very easy to extend. Visit the <a href="http://plugins.jquery.com">Plugins Site</a> to find all available plugins for jQuery.<p>
   </section>
   <aside id="resources" class="four columns">
     <ul>
@@ -93,63 +62,42 @@ $.ajax({
       <li><a href="http://jquerymobile.com">jQuery's Mobile Framework</a></li>
     </ul>
   </aside>
-</div>
+  <section class="twelve columns">
+    <h2>A Brief Look</h2>
 
-<div>
-  <div id="jq-books" style="width:auto; float: none">
-    <h2>Books About jQuery</h2>
-    <ul>
-      <li class="jq-clearfix" style="width:270px;float:left;clear:none;">
-        <a href="http://link.packtpub.com/S3Fr9Q" class="jq-bookImg">
-          <img src="http://learningjquery.kswedberg.netdna-cdn.com/wp-content/themes/ljq/images/ljq3rded.jpg" alt="Learning jQuery Third Edition" width="55" height="70">
-        </a>
-        <h3>
-          <a href="http://link.packtpub.com/S3Fr9Q">Learning jQuery Third Edition</a>
-        </h3>
-        <div class="jq-author">Karl Swedberg and <br>Jonathan Chaffer</div>
-        <a href="http://link.packtpub.com/S3Fr9Q" class="jq-buyNow">Buy Now</a>
-      </li>
-      <li class="jq-clearfix" style="width:270px;float:left;clear:none;">
-        <a href="http://www.packtpub.com/jquery-1-4-animation-techniques-beginners-guide/book/mid/1803111nkj15" class="jq-bookImg">
-          <img src="http://static.jquery.com/books/jquery-animation-beginners-guide.jpg" alt="jQuery 1.4 Animation Techniques: Beginners Guide" width="55" height="70">
-        </a>
-        <h3>
-          <a href="http://www.packtpub.com/jquery-1-4-animation-techniques-beginners-guide/book/mid/1803111nkj15">jQuery 1.4 Animation Techniques: Beginners Guide</a>
-        </h3>
-        <div class="jq-author">Dan Wellman</div>
-        <a href="http://www.packtpub.com/jquery-1-4-animation-techniques-beginners-guide/book/mid/1803111nkj15" class="jq-buyNow">Buy Now</a>
-      </li>
-      <li class="jq-clearfix" style="width:270px;float:left;clear:none;">
-        <a href="http://www.packtpub.com/jquery-plugin-development-beginners-guide/book/mid/1911104odmdz" class="jq-bookImg">
-          <img src="http://static.jquery.com/books/jquery-plugin-developers-guide_thumb.jpg" alt="jQuery Plugin Development Beginner's Guide" width="55" height="70">
-        </a>
-        <h3>
-          <a href="http://www.packtpub.com/jquery-plugin-development-beginners-guide/book/mid/1911104odmdz">jQuery Plugin Development Beginner's Guide</a>
-        </h3>
-        <div class="jq-author">Guilio Bai</div>
-        <a href="http://www.packtpub.com/jquery-plugin-development-beginners-guide/book/mid/1911104odmdz" class="jq-buyNow">Buy Now</a>
-      </li>
-      <li class="jq-clearfix" style="width:270px;float:left;clear:left;">
-        <a href="http://www.manning.com/affiliate/idevaffiliate.php?id=648_176" class="jq-bookImg">
-          <img src="http://static.jquery.com/books/jquery-in-action-2ed_thumb.jpg" alt="jQuery in Action" width="55" height="70">
-        </a>
-        <h3>
-          <a href="http://www.manning.com/affiliate/idevaffiliate.php?id=648_176">jQuery in Action</a>
-        </h3>
-        <div class="jq-author">Bear Bibeault<br>and Yehuda Katz</div>
-        <a href="http://www.manning.com/affiliate/idevaffiliate.php?id=648_176" class="jq-buyNow">Buy Now</a>
-      </li>
-      <li class="jq-clearfix" style="width:270px;float:left;clear:none;">
-        <a class="jq-bookImg" href="http://jqueryenlightenment.com/">
-          <img src="http://static.jquery.com/books/jquery-enlightenment_thumb.jpg" alt="jQuery Enlightenment" width="55" height="70">
-        </a>
-        <h3>
-          <a href="http://jqueryenlightenment.com/">jQuery Enlightenment</a>
-        </h3>
-        <div class="jq-author">Cody Lindley</div>
-        <a href="http://jqueryenlightenment.com/" class="jq-buyNow">Buy Now</a>
-      </li>
-    </ul>
-  </div>
-  <!-- /#news -->
+    <h3>DOM Traversal and Manipulation</h3>
+    <p>Get the <code>&lt;button&gt;</code> element with the class 'continue' and change its HTML to 'Next Step...'</p>
+    <pre><code>$( "button.continue" ).html( "Next Step..." )</code></pre>
+
+    <h3>Event Handling</h3>
+    <p>Show the <code>#banner-message</code> element that is hidden with 
+       <code>display:none</code> in its CSS when any button in <code>#button-container</code> is
+       clicked.</p>
+    <pre><code>
+var hiddenBox = $( "#banner-message" );
+$( "#button-container button" ).on( "click", function( event ) {
+  hiddenBox.show();
+});
+</pre></code>
+
+    <h3>Ajax</h3>       
+    <p>Call a local script on the server <code>/api/getWeather</code> with the query parameter <code>zipcode=97201</code> and replace the element <code>#weather-temp</code>'s
+       html with the returned text.</p>
+    <pre><code>
+$.ajax( {
+  url: "/api/getWeather",
+  data: { 
+    zipcode: 97201 
+  },
+  success: function( data ) {
+    $( "#weather-temp" ).html( data + " degrees" );
+  }
+});
+</pre></code>
+
+       <p>Visit the <a href="http://api.jquery.com">API Documentation</a> to see all that jQuery has to offer.
+          If you'd like to learn more about jQuery and how to properly utilize it on your website or in your 
+          web application, visit the <a href="http://learn.jquery.com">Learning Site</a>.</p>
+
+  </section>
 </div>
