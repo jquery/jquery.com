@@ -12,7 +12,7 @@
 
 Download jQuery for use locally or to put on your own web-server. 
 
-### jQuery 1.8.3
+### jQuery 1.9.0
 
 [Download the compressed, production copy](http://code.jquery.com/jquery.min.js)
 
@@ -26,7 +26,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 ### Using jQuery's CDN provided by [MediaTemple](http://mediatemple.net)
 
 ```
-<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
 ```
 
 To see all versions, visit [http://code.jquery.com](http://code.jquery.com)
@@ -34,7 +34,7 @@ To see all versions, visit [http://code.jquery.com](http://code.jquery.com)
 ### Using Google's CDN
 
 ```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 ```
 
 Visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information.
@@ -42,7 +42,7 @@ Visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/ind
 ### Using Microsoft's CDN
 
 ```
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js"></script>
 ```
 
 Visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information.
@@ -71,6 +71,7 @@ If you're interested in downloading Plugins developed by jQuery contributors, pl
 <table>
         <thead><tr><th>Version</th><th>Docs</th><th>Downloads</th></tr></thead>
         <tbody>
+                <tr><td>1.9.0</td><td><a href="http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.9.0.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.9.0.js">Uncompressed</a></td></tr>
                 <tr><td>1.8.3</td><td><a href="http://blog.jquery.com/2012/11/13/jquery-1-8-3-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.3.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.3.js">Uncompressed</a></td></tr>
                 <tr><td>1.8.2</td><td><a href="http://blog.jquery.com/2012/09/20/jquery-1-8-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.2.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.2.js">Uncompressed</a></td></tr>
                 <tr><td>1.8.1</td><td><a href="http://blog.jquery.com/2012/08/30/jquery-1-8-1-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.1.js">Uncompressed</a></td></tr>
