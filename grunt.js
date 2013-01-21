@@ -26,7 +26,7 @@ grunt.initConfig({
 	},
 	watch: {
 		pages: {
-			files: "page/*.html",
+			files: "pages/**/*",
 			tasks: "deploy"
 		}
 	},
