@@ -1,7 +1,7 @@
 <script>
 {
   "title": "Download jQuery",
-  "pageTemplate": "page-fullwidth.php",
+  "pageTemplate": "page-contentfull.php",
   "customFields": [
     { "key": "hide_title", "value": 1 }
   ]
