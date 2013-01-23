@@ -10,13 +10,32 @@
 
 ## Downloading jQuery
 
-Download jQuery for use locally or to put on your own web-server. 
+The jQuery 1.9 line has major changes from previous versions. We strongly
+recommend that you also use the jQuery Migrate plugin if you are upgrading from
+older versions of jQuery or need to use plugins that haven't yet been updated.
+Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
+and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
+for more information.
 
-### jQuery 1.9.0
+[Download the compressed, production jQuery 1.9.0](http://code.jquery.com/jquery.min.js)
 
-[Download the compressed, production copy](http://code.jquery.com/jquery.min.js)
+[Download the uncompressed, development jQuery 1.9.0](http://code.jquery.com/jquery.js)
 
-[Download the uncompressed, development copy](http://code.jquery.com/jquery.js)
+## jQuery Migrate plugin
+
+We have created the [jQuery Migrate plugin](http://github.com/jquery/jquery-migrate/) 
+to simplify the transition from older versions of jQuery.
+The plugin restores deprecated features and behaviors so that older code will
+still run properly on jQuery 1.9 and later.
+Use the _uncompressed development_ version to diagnose compatiblity issues, 
+it will generate warnings on the console that you can use to identify
+and fix problems.
+Use the _compressed production_ version to simply fix compatibility issues
+without generating console warnings.
+
+[Download the compressed, production jQuery Migrate 1.0.0](http://code.jquery.com/jquery-migrate-1.0.0.min.js)
+
+[Download the uncompressed, development jQuery Migrate 1.0.0](http://code.jquery.com/jquery-migrate-1.0.0.js)
 
 ## Using jQuery with a CDN
 
@@ -27,9 +46,10 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 ```
 <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.0.0.min.js"></script>
 ```
 
-To see all versions, visit [http://code.jquery.com](http://code.jquery.com)
+To see all available files and versions, visit [http://code.jquery.com](http://code.jquery.com)
 
 ### Using Google's CDN
 
@@ -64,9 +84,7 @@ If you're interested in downloading Plugins developed by jQuery contributors, pl
 
 ***
 
-##  Advanced/Experimental Options
-
-### Past Releases
+## Past Releases
 
 <table>
         <thead><tr><th>Version</th><th>Docs</th><th>Downloads</th></tr></thead>
