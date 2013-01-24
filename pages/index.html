@@ -105,7 +105,7 @@
   <pre><code>
 var hiddenBox = $( "#banner-message" );
 $( "#button-container button" ).on( "click", function( event ) {
-hiddenBox.show();
+  hiddenBox.show();
 });
 </pre></code>
 
@@ -113,14 +113,14 @@ hiddenBox.show();
   <p>Call a local script on the server <code>/api/getWeather</code> with the query parameter <code>zipcode=97201</code> and replace the element <code>#weather-temp</code>'s
      html with the returned text.</p>
   <pre><code>
-$.ajax( {
-url: "/api/getWeather",
-data: { 
-  zipcode: 97201 
-},
-success: function( data ) {
-  $( "#weather-temp" ).html( "&lt;strong>" + data + "&lt;/strong> degrees" );
-}
+$.ajax({
+  url: "/api/getWeather",
+  data: { 
+    zipcode: 97201 
+  },
+  success: function( data ) {
+    $( "#weather-temp" ).html( "&lt;strong>" + data + "&lt;/strong> degrees" );
+  }
 });
 </pre></code>
 </section>
