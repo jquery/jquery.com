@@ -17,9 +17,9 @@ Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-[Download the compressed, production jQuery 1.9.0](http://code.jquery.com/jquery.min.js)
+[Download the compressed, production jQuery 1.9.0](http://code.jquery.com/jquery-1.9.0.min.js)
 
-[Download the uncompressed, development jQuery 1.9.0](http://code.jquery.com/jquery.js)
+[Download the uncompressed, development jQuery 1.9.0](http://code.jquery.com/jquery-1.9.0.js)
 
 ## jQuery Migrate plugin
 
