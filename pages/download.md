@@ -10,7 +10,7 @@
 
 ## Downloading jQuery
 
-The jQuery 1.9 line has major changes from previous versions. We strongly
+The jQuery 1.9 line has major changes from previous versions. We _strongly_
 recommend that you also use the jQuery Migrate plugin if you are upgrading from
 older versions of jQuery or need to use plugins that haven't yet been updated.
 Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
@@ -33,9 +33,9 @@ and fix problems.
 Use the _compressed production_ version to simply fix compatibility issues
 without generating console warnings.
 
-[Download the compressed, production jQuery Migrate 1.0.0](http://code.jquery.com/jquery-migrate-1.0.0.min.js)
+[Download the compressed, production jQuery Migrate 1.1.0](http://code.jquery.com/jquery-migrate-1.1.0.min.js)
 
-[Download the uncompressed, development jQuery Migrate 1.0.0](http://code.jquery.com/jquery-migrate-1.0.0.js)
+[Download the uncompressed, development jQuery Migrate 1.1.0](http://code.jquery.com/jquery-migrate-1.1.0.js)
 
 ## Using jQuery with a CDN
 
@@ -46,7 +46,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 ```
 <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.0.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
 ```
 
 To see all available files and versions, visit [http://code.jquery.com](http://code.jquery.com)
@@ -57,7 +57,7 @@ To see all available files and versions, visit [http://code.jquery.com](http://c
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 ```
 
-Visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information.
+Visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information. Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.
 
 ### Using Microsoft's CDN
 
@@ -65,9 +65,7 @@ Visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/ind
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js"></script>
 ```
 
-Visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information.
-
-Note: We do not control the Microsoft or Google CDNs and there may be a delay from the time of a new release until it is available there.
+Visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information. Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.
 
 ## About the Code
 
