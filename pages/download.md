@@ -55,19 +55,11 @@ To see all available files and versions, visit [http://code.jquery.com](http://c
 
 ### Using Google's CDN
 
-```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-```
-
-Visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information. Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.
+All jQuery releases are available on the Google CDN, visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information. *Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.*
 
 ### Using Microsoft's CDN
 
-```
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
-```
-
-Visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information. Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.
+All jQuery releases are available on the Microsoft CDN, visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information. *Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.*
 
 ## About the Code
 
