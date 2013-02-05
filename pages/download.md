@@ -17,9 +17,11 @@ Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-[Download the compressed, production jQuery 1.9.0](http://code.jquery.com/jquery-1.9.0.min.js)
+[Download the compressed, production jQuery 1.9.1](http://code.jquery.com/jquery-1.9.1.min.js)
 
-[Download the uncompressed, development jQuery 1.9.0](http://code.jquery.com/jquery-1.9.0.js)
+[Download the uncompressed, development jQuery 1.9.1](http://code.jquery.com/jquery-1.9.1.js)
+
+[jQuery 1.9.1 release notes](http://blog.jquery.com/2013/02/04/jquery-1-9-1-released/)
 
 ## jQuery Migrate plugin
 
@@ -45,7 +47,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 ### Using jQuery's CDN provided by [MediaTemple](http://mediatemple.net)
 
 ```
-<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
 ```
 
@@ -54,7 +56,7 @@ To see all available files and versions, visit [http://code.jquery.com](http://c
 ### Using Google's CDN
 
 ```
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 ```
 
 Visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information. Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.
@@ -62,7 +64,7 @@ Visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/ind
 ### Using Microsoft's CDN
 
 ```
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
 ```
 
 Visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information. Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.
