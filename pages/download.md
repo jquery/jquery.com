@@ -112,13 +112,13 @@ All source code is kept under Git revision control, which you can browse online.
 
 If you have access to Git, you can connect to the repository here:
 
-```shell
+``` bash
 git clone git://github.com/jquery/jquery.git
 ```
 
 You can also check out a specific version of jQuery from GitHub:
 
-```shell
+``` bash
 git clone git://github.com/jquery/jquery.git
 git checkout 1.2.6
 ```
