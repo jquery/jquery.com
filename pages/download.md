@@ -25,7 +25,8 @@ for more information.
 
 ## jQuery Migrate plugin
 
-We have created the [jQuery Migrate plugin](http://github.com/jquery/jquery-migrate/)
+We have created the [jQuery Migrate
+plugin](http://github.com/jquery/jquery-migrate/#readme)
 to simplify the transition from older versions of jQuery.
 The plugin restores deprecated features and behaviors so that older code will
 still run properly on jQuery 1.9 and later.
@@ -35,9 +36,9 @@ and fix problems.
 Use the _compressed production_ version to simply fix compatibility issues
 without generating console warnings.
 
-[Download the compressed, production jQuery Migrate 1.1.0](http://code.jquery.com/jquery-migrate-1.1.0.min.js)
+[Download the compressed, production jQuery Migrate 1.1.1](http://code.jquery.com/jquery-migrate-1.1.1.min.js)
 
-[Download the uncompressed, development jQuery Migrate 1.1.0](http://code.jquery.com/jquery-migrate-1.1.0.js)
+[Download the uncompressed, development jQuery Migrate 1.1.1](http://code.jquery.com/jquery-migrate-1.1.1.js)
 
 ## Using jQuery with a CDN
 
@@ -48,7 +49,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 ```
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 ```
 
 To see all available files and versions, visit [http://code.jquery.com](http://code.jquery.com)
