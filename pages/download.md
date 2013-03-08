@@ -102,18 +102,6 @@ If you're interested in downloading Plugins developed by jQuery contributors, pl
 	</tbody>
 </table>
 
-### jQuery Git
-
-This work-in-progress build, known as jQuery Git, is generated once a minute from the <a href="http://github.com/jquery/jquery">jQuery Git repository</a>. It is provided as a convenience for anyone who wants to help test changes in the next version of jQuery.
-
-When reporting issues with jQuery Git builds of jQuery, please make sure you include the date and time the snapshot was generated (it is listed at the top of the file).
-
-Linking to jQuery Git builds directly from the CDN is not advised, as the file is constantly refreshed and may change from minute to minute as new commits are made to the repository.
-
-<strong>WARNING:</strong> Do NOT use the jQuery Git build in a production system or live application! It is not tested. It is not stable. It will probably blow up on you unexpectedly. You have been warned! If in doubt, stop and use the current release.
-
-jQuery Git <a href="http://code.jquery.com/jquery-git.js">Uncompressed</a>
-
 ### Build from Git
 *Note:* The following is quite advanced. If you wish to just use a work-in-progress version of jQuery, please try the jQuery Git build instead.
 
