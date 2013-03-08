@@ -40,6 +40,14 @@ without generating console warnings.
 
 [Download the uncompressed, development jQuery Migrate 1.1.1](http://code.jquery.com/jquery-migrate-1.1.1.js)
 
+## jQuery Pre-Release Builds
+
+The jQuery team is constantly working to improve the code. Each commit to the Github repo generates a work-in-progress version of the code that we update on the jQuery CDN. _These versions are sometimes unstable and not suitable for production sites._ We recommend they be used to determine whether a bug has already been fixed when reporting bugs against released versions, or to see if new bugs have been introduced. There are two versions, one for the 1.x branch (supports IE 6/7/8) and one for the 2.x branch (not for use with old IE).
+
+[Download the work-in-progress jQuery **1.x** build - http://code.jquery.com/jquery-git1.js](http://code.jquery.com/jquery-git1.js)
+
+[Download the work-in-progress jQuery **2.x** build - http://code.jquery.com/jquery-git2.js](http://code.jquery.com/jquery-git2.js)
+
 ## Using jQuery with a CDN
 
 [CDNs](http://en.wikipedia.org/wiki/Content_delivery_network) can offer a performance benefit by hosting jQuery on servers spread across the globe. This also offers an advantage that
