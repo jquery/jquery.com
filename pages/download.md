@@ -81,7 +81,7 @@ All of the code is available in two formats:
 
 If you're interested in downloading Plugins developed by jQuery contributors, please visit the <a href="http://plugins.jquery.com/">Plugins site</a>.
 
-**jQuery is provided under the <a href="http://jquery.org/license">MIT or GPL license</a>.**
+**jQuery is provided under the <a href="http://jquery.org/license/">MIT license</a>.**
 
 ***
 
