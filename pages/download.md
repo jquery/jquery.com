@@ -60,7 +60,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 ```
 
-To see all available files and versions, visit [http://code.jquery.com](http://code.jquery.com)
+To see all available files and versions, visit [http://code.jquery.com](http://code.jquery.com). *Note that this CDN is not available via SSL.*
 
 ### Using Google's CDN
 
