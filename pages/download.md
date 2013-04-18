@@ -10,6 +10,8 @@
 
 ## Downloading jQuery
 
+### jQuery 1.x
+
 The jQuery 1.9 line has major changes from previous versions. We _strongly_
 recommend that you also use the jQuery Migrate plugin if you are upgrading from
 older versions of jQuery or need to use plugins that haven't yet been updated.
@@ -22,6 +24,20 @@ for more information.
 [Download the uncompressed, development jQuery 1.9.1](http://code.jquery.com/jquery-1.9.1.js)
 
 [jQuery 1.9.1 release notes](http://blog.jquery.com/2013/02/04/jquery-1-9-1-released/)
+
+### jQuery 2.x
+
+jQuery 2.0 has the same API as jQuery 1.9, but <em>does not support Internet Explorer 6, 7, or 8</em>.
+All the notes in the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/) apply here as well.
+Since IE 6/7/8 are still relatively common, we recommend using the 1.x version unless you
+are certain no IE 6/7/8 users are visiting the site.
+Please read the [release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
+
+[Download the compressed, production jQuery 2.0.0](http://code.jquery.com/jquery-2.0.0.min.js)
+
+[Download the uncompressed, development jQuery 2.0.0](http://code.jquery.com/jquery-2.0.0.js)
+
+[jQuery 2.0.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/)
 
 ## jQuery Migrate plugin
 
