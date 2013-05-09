@@ -52,9 +52,9 @@ and fix problems.
 Use the _compressed production_ version to simply fix compatibility issues
 without generating console warnings.
 
-[Download the compressed, production jQuery Migrate 1.1.1](http://code.jquery.com/jquery-migrate-1.1.1.min.js)
+[Download the compressed, production jQuery Migrate 1.2.1](http://code.jquery.com/jquery-migrate-1.2.1.min.js)
 
-[Download the uncompressed, development jQuery Migrate 1.1.1](http://code.jquery.com/jquery-migrate-1.1.1.js)
+[Download the uncompressed, development jQuery Migrate 1.2.1](http://code.jquery.com/jquery-migrate-1.2.1.js)
 
 ## jQuery Pre-Release Builds
 
@@ -73,7 +73,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 ```
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 ```
 
 To see all available files and versions, visit [http://code.jquery.com](http://code.jquery.com)
