@@ -12,32 +12,32 @@
 
 ### jQuery 1.x
 
-The jQuery 1.9 line has major changes from previous versions. We _strongly_
+The jQuery 1.x line has major changes from previous versions. We _strongly_
 recommend that you also use the jQuery Migrate plugin if you are upgrading from
 older versions of jQuery or need to use plugins that haven't yet been updated.
 Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-[Download the compressed, production jQuery 1.9.1](http://code.jquery.com/jquery-1.9.1.min.js)
+[Download the compressed, production jQuery 1.10.0](http://code.jquery.com/jquery-1.10.0.min.js)
 
-[Download the uncompressed, development jQuery 1.9.1](http://code.jquery.com/jquery-1.9.1.js)
+[Download the uncompressed, development jQuery 1.10.0](http://code.jquery.com/jquery-1.10.0.js)
 
-[jQuery 1.9.1 release notes](http://blog.jquery.com/2013/02/04/jquery-1-9-1-released/)
+[jQuery 1.10.0 release notes](http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/)
 
 ### jQuery 2.x
 
-jQuery 2.0 has the same API as jQuery 1.9, but <em>does not support Internet Explorer 6, 7, or 8</em>.
+jQuery 2.x has the same API as jQuery 1.x, but _does not support Internet Explorer 6, 7, or 8_.
 All the notes in the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/) apply here as well.
 Since IE 6/7/8 are still relatively common, we recommend using the 1.x version unless you
 are certain no IE 6/7/8 users are visiting the site.
 Please read the [release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
 
-[Download the compressed, production jQuery 2.0.0](http://code.jquery.com/jquery-2.0.0.min.js)
+[Download the compressed, production jQuery 2.0.1](http://code.jquery.com/jquery-2.0.1.min.js)
 
-[Download the uncompressed, development jQuery 2.0.0](http://code.jquery.com/jquery-2.0.0.js)
+[Download the uncompressed, development jQuery 2.0.1](http://code.jquery.com/jquery-2.0.1.js)
 
-[jQuery 2.0.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/)
+[jQuery 2.0.1 release notes](http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/)
 
 ## jQuery Migrate plugin
 
@@ -72,7 +72,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 ### Using jQuery's CDN provided by [MediaTemple](http://mediatemple.net)
 
 ```
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 ```
 
@@ -106,6 +106,8 @@ If you're interested in downloading Plugins developed by jQuery contributors, pl
 <table>
 	<thead><tr><th>Version</th><th>Docs</th><th>Downloads</th></tr></thead>
 	<tbody>
+		<tr><td>2.0.0</td><td><a href="http://blog.jquery.com/2013/04/18/jquery-2-0-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-2.0.0.min.js">Minified</a> <a href="http://code.jquery.com/jquery-2.0.0.js">Uncompressed</a></td></tr>
+		<tr><td>1.9.1</td><td><a href="http://blog.jquery.com/2013/02/04/jquery-1-9-1-released">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.9.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.9.1.js">Uncompressed</a></td></tr>
 		<tr><td>1.9.0</td><td><a href="http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.9.0.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.9.0.js">Uncompressed</a></td></tr>
 		<tr><td>1.8.3</td><td><a href="http://blog.jquery.com/2012/11/13/jquery-1-8-3-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.3.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.3.js">Uncompressed</a></td></tr>
 		<tr><td>1.8.2</td><td><a href="http://blog.jquery.com/2012/09/20/jquery-1-8-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.2.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.2.js">Uncompressed</a></td></tr>
