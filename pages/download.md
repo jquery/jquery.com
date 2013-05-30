@@ -10,6 +10,14 @@
 
 ## Downloading jQuery
 
+Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during development or debugging; the compressed file saves bandwidth and improves performance in production.
+Starting with jQuery 1.9, we also make available
+[sourcemap files](http://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps)
+that can be used to debug the compressed file in sourcemap-aware browsers such as Google Chrome.
+The map file is _not_ required for users to run jQuery, it just improves the developer's debugger experience.
+
+To locally download save these files, right-click the link and select "Save as..." from the menu.
+
 ### jQuery 1.x
 
 The jQuery 1.x line has major changes from previous versions. We _strongly_
@@ -19,11 +27,13 @@ Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-[Download the compressed, production jQuery 1.10.0](http://code.jquery.com/jquery-1.10.0.min.js)
+[Download the compressed, production jQuery 1.10.1](http://code.jquery.com/jquery-1.10.1.min.js)
 
-[Download the uncompressed, development jQuery 1.10.0](http://code.jquery.com/jquery-1.10.0.js)
+[Download the uncompressed, development jQuery 1.10.1](http://code.jquery.com/jquery-1.10.1.js)
 
-[jQuery 1.10.0 release notes](http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/)
+[Download the map file for jQuery 1.10.1](http://code.jquery.com/jquery-1.10.1.min.map)
+
+[jQuery 1.10.1 release notes](http://blog.jquery.com/?p=2970)
 
 ### jQuery 2.x
 
@@ -33,24 +43,18 @@ Since IE 6/7/8 are still relatively common, we recommend using the 1.x version u
 are certain no IE 6/7/8 users are visiting the site.
 Please read the [release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
 
-[Download the compressed, production jQuery 2.0.1](http://code.jquery.com/jquery-2.0.1.min.js)
+[Download the compressed, production jQuery 2.0.2](http://code.jquery.com/jquery-2.0.2.min.js)
 
-[Download the uncompressed, development jQuery 2.0.1](http://code.jquery.com/jquery-2.0.1.js)
+[Download the uncompressed, development jQuery 2.0.2](http://code.jquery.com/jquery-2.0.2.js)
 
-[jQuery 2.0.1 release notes](http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/)
+[Download the map file for jQuery 2.0.2](http://code.jquery.com/jquery-2.0.2.min.map)
+
+[jQuery 2.0.2 release notes](http://blog.jquery.com/?p=2970)
 
 ## jQuery Migrate plugin
 
-We have created the [jQuery Migrate
-plugin](http://github.com/jquery/jquery-migrate/#readme)
-to simplify the transition from older versions of jQuery.
-The plugin restores deprecated features and behaviors so that older code will
-still run properly on jQuery 1.9 and later.
-Use the _uncompressed development_ version to diagnose compatiblity issues,
-it will generate warnings on the console that you can use to identify
-and fix problems.
-Use the _compressed production_ version to simply fix compatibility issues
-without generating console warnings.
+We have created the [jQuery Migrate plugin](http://github.com/jquery/jquery-migrate/#readme)
+to simplify the transition from older versions of jQuery. The plugin restores deprecated features and behaviors so that older code will still run properly on jQuery 1.9 and later. Use the _uncompressed development_ version to diagnose compatiblity issues, it will generate warnings on the console that you can use to identify and fix problems. Use the _compressed production_ version to simply fix compatibility issues without generating console warnings.
 
 [Download the compressed, production jQuery Migrate 1.2.1](http://code.jquery.com/jquery-migrate-1.2.1.min.js)
 
@@ -76,15 +80,17 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 ```
 
+Starting with jQuery 1.9, [sourcemap files](http://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps) are available on the jQuery CDN as well. If compressed files are included directly from the CDN as shown above, sourcemap-aware browsers such as Google Chrome will use them when you enable sourcemap support.
+
 To see all available files and versions, visit [http://code.jquery.com](http://code.jquery.com)
 
 ### Using Google's CDN
 
-All jQuery releases are available on the Google CDN, visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information. *Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.*
+All jQuery releases are available on the Google CDN, visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information. **Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.**
 
 ### Using Microsoft's CDN
 
-All jQuery releases are available on the Microsoft CDN, visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information. *Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.*
+All jQuery releases are available on the Microsoft CDN, visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information. **Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.**
 
 ## About the Code
 
