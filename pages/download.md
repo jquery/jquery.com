@@ -16,7 +16,7 @@ Starting with jQuery 1.9, we also make available
 that can be used to debug the compressed file in sourcemap-aware browsers such as Google Chrome.
 The map file is _not_ required for users to run jQuery, it just improves the developer's debugger experience.
 
-To locally download save these files, right-click the link and select "Save as..." from the menu.
+To locally download these files, right-click the link and select "Save as..." from the menu.
 
 ### jQuery 1.x
 
