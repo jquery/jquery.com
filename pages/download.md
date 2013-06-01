@@ -73,10 +73,11 @@ The jQuery team is constantly working to improve the code. Each commit to the Gi
 [CDNs](http://en.wikipedia.org/wiki/Content_delivery_network) can offer a performance benefit by hosting jQuery on servers spread across the globe. This also offers an advantage that
 if the visitor to your webpage has already downloaded a copy of jQuery from the same CDN, it won't have to be re-downloaded.
 
-### Using jQuery's CDN provided by [MediaTemple](http://mediatemple.net)
+### jQuery's CDN provided by [MediaTemple](http://mediatemple.net)
 
+To use the jQuery CDN, just reference the file directly from `http://code.jquery.com` in the script tag:
 ```
-<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 ```
 
@@ -84,26 +85,44 @@ Starting with jQuery 1.9, [sourcemap files](http://blog.jquery.com/2013/01/09/jq
 
 To see all available files and versions, visit [http://code.jquery.com](http://code.jquery.com)
 
-### Using Google's CDN
+### Other CDNs
 
-All jQuery releases are available on the Google CDN, visit [Google's CDN page](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery) for more information. **Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.**
+The following CDNs also host compressed and uncompressed versions of jQuery releases. Starting with jQuery 1.9 they may also host [sourcemap files](http://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps); check the site's documentation.
 
-### Using Microsoft's CDN
+**Note that there may be delays between a jQuery release and its availability there. Please be patient, they receive the files at the same time the blog post is made public. Beta and release candidates are not hosted by these CDNs.**
 
-All jQuery releases are available on the Microsoft CDN, visit [Microsoft's CDN Page](http://www.asp.net/ajaxlibrary/cdn.ashx) for more information. **Note that we do not control this CDN; there may be a delay between a jQuery release and its availability there.**
+* [Google CDN](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery)
+* [Microsoft CDN](http://www.asp.net/ajaxlibrary/cdn.ashx#jQuery_Releases_on_the_CDN_0)
+* [CDNJS CDN](http://cdnjs.com#jquery)
 
 ## About the Code
 
-The code itself is written rather cleanly in an attempt to self-document. If you've spotted some areas of code that could be improved, please feel free to discuss it on the [Developing jQuery Core Forum](https://forum.jquery.com/developing-jquery-core). All input is gladly appreciated!
-
-All of the code is available in two formats:
-
-* Compressed (which allows you to have a significantly smaller file size) and</li>
-* Uncompressed (good for debugging and to understand what is behind the magic).</li>
-
-If you're interested in downloading Plugins developed by jQuery contributors, please visit the <a href="http://plugins.jquery.com/">Plugins site</a>.
-
 **jQuery is provided under the <a href="http://jquery.org/license/">MIT license</a>.**
+
+The code is hosted and developed in the [jQuery GitHub repository](http://github.com/jquery/jquery). If you've spotted some areas of code that could be improved, please feel free to discuss it on the [Developing jQuery Core Forum](https://forum.jquery.com/developing-jquery-core). If you'd like to participate in developing jQuery, peruse our [contributor site](http://contribute.jquery.org) for more information.
+
+To find and download plugins developed by jQuery contributors, please visit the <a href="http://plugins.jquery.com/">Plugins site</a>. Plugin authors are responsible for maintenance of their plugins. Feedback on plugins should be directed to the plugin author, not the jQuery team.
+
+### Build from Git
+
+*Note:* To just use the latest work-in-progress version of jQuery, please try the jQuery Pre-Release Build described above.
+
+All source code is kept under Git revision control, which you can browse online. The repository's <a href="https://github.com/jquery/jquery/blob/master/README.md">README</a> has more information on building and testing your own jQuery, as well as instructions on creating a custom build that excludes some APIs to reduce file size.
+
+If you have access to Git, you can connect to the repository here:
+
+``` bash
+git clone git://github.com/jquery/jquery.git
+```
+
+You can also check out and build a specific version of jQuery from GitHub:
+
+``` bash
+git clone git://github.com/jquery/jquery.git
+git checkout 1.2.6
+```
+
+The README file for a specific version will have instructions for building that version, as the process has changed over time.
 
 ***
 
@@ -112,36 +131,14 @@ If you're interested in downloading Plugins developed by jQuery contributors, pl
 <table>
 	<thead><tr><th>Version</th><th>Docs</th><th>Downloads</th></tr></thead>
 	<tbody>
+		<tr><td>2.0.1</td><td><a href="http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-2.0.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-2.0.1.js">Uncompressed</a></td></tr>
 		<tr><td>2.0.0</td><td><a href="http://blog.jquery.com/2013/04/18/jquery-2-0-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-2.0.0.min.js">Minified</a> <a href="http://code.jquery.com/jquery-2.0.0.js">Uncompressed</a></td></tr>
+		<tr><td>1.10.0</td><td><a href="http://blog.jquery.com/2013/05/24/jquery-1-10-0-and-2-0-1-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.10.0.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.10.0.js">Uncompressed</a></td></tr>
 		<tr><td>1.9.1</td><td><a href="http://blog.jquery.com/2013/02/04/jquery-1-9-1-released">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.9.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.9.1.js">Uncompressed</a></td></tr>
 		<tr><td>1.9.0</td><td><a href="http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.9.0.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.9.0.js">Uncompressed</a></td></tr>
 		<tr><td>1.8.3</td><td><a href="http://blog.jquery.com/2012/11/13/jquery-1-8-3-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.3.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.3.js">Uncompressed</a></td></tr>
-		<tr><td>1.8.2</td><td><a href="http://blog.jquery.com/2012/09/20/jquery-1-8-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.2.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.2.js">Uncompressed</a></td></tr>
-		<tr><td>1.8.1</td><td><a href="http://blog.jquery.com/2012/08/30/jquery-1-8-1-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.1.js">Uncompressed</a></td></tr>
-		<tr><td>1.8.0</td><td><a href="http://blog.jquery.com/2012/08/09/jquery-1-8-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.0.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.0.js">Uncompressed</a></td></tr>
 		<tr><td>1.7.2</td><td><a href="http://blog.jquery.com/2012/03/21/jquery-1-7-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.7.2.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.7.2.js">Uncompressed</a></td></tr>
-		<tr><td>1.7.1</td><td><a href="http://blog.jquery.com/2011/11/21/jquery-1-7-1-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.7.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.7.1.js">Uncompressed</a></td></tr>
 		<tr><td>1.6.4</td><td><a href="http://blog.jquery.com/2011/09/12/jquery-1-6-4-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.6.4.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.6.4.js">Uncompressed</a></td></tr>
-		<tr><td>1.6.3</td><td><a href="http://blog.jquery.com/2011/09/01/jquery-1-6-3-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.6.3.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.6.3.js">Uncompressed</a></td></tr>
 	</tbody>
 </table>
 
-### Build from Git
-*Note:* The following is quite advanced. If you wish to just use a work-in-progress version of jQuery, please try the jQuery Git build instead.
-
-All source code is kept under Git revision control, which you can browse online. There's a download link available for any file or directory, if you only want to download a portion of the jQuery code.
-
-If you have access to Git, you can connect to the repository here:
-
-``` bash
-git clone git://github.com/jquery/jquery.git
-```
-
-You can also check out a specific version of jQuery from GitHub:
-
-``` bash
-git clone git://github.com/jquery/jquery.git
-git checkout 1.2.6
-```
-
-The repository's <a href="https://github.com/jquery/jquery/blob/master/README.md">README</a> has more information on building and testing your own jQuery, as well as links to core style guidelines and tips for patching bugs.
