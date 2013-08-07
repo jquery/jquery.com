@@ -73,7 +73,7 @@ The jQuery team is constantly working to improve the code. Each commit to the Gi
 [CDNs](http://en.wikipedia.org/wiki/Content_delivery_network) can offer a performance benefit by hosting jQuery on servers spread across the globe. This also offers an advantage that
 if the visitor to your webpage has already downloaded a copy of jQuery from the same CDN, it won't have to be re-downloaded.
 
-### jQuery's CDN provided by [MediaTemple](http://mediatemple.net)
+### jQuery's CDN provided by [MaxCDN](http://www.maxcdn.com)
 
 To use the jQuery CDN, just reference the file directly from `http://code.jquery.com` in the script tag:
 ```
