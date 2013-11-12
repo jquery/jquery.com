@@ -51,7 +51,7 @@ Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0
 
 [jQuery 2.0.3 release notes](http://blog.jquery.com/?p=3006)
 
-## jQuery Migrate plugin
+## jQuery Migrate Plugin
 
 We have created the [jQuery Migrate plugin](http://github.com/jquery/jquery-migrate/#readme)
 to simplify the transition from older versions of jQuery. The plugin restores deprecated features and behaviors so that older code will still run properly on jQuery 1.9 and later. Use the _uncompressed development_ version to diagnose compatiblity issues, it will generate warnings on the console that you can use to identify and fix problems. Use the _compressed production_ version to simply fix compatibility issues without generating console warnings.
@@ -59,6 +59,10 @@ to simplify the transition from older versions of jQuery. The plugin restores de
 [Download the compressed, production jQuery Migrate 1.2.1](http://code.jquery.com/jquery-migrate-1.2.1.min.js)
 
 [Download the uncompressed, development jQuery Migrate 1.2.1](http://code.jquery.com/jquery-migrate-1.2.1.js)
+
+## Cross-Browser Testing with jQuery
+
+Be sure to test web pages that use jQuery in all the browsers you want to support. The [Modern.IE](http://modern.ie/) site makes available virtual machines for testing many different versions of Internet Explorer. Older versions of other browsers can be found at [oldversion.com](http://oldversion.com/). 
 
 ## jQuery Pre-Release Builds
 
