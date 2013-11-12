@@ -62,7 +62,7 @@ to simplify the transition from older versions of jQuery. The plugin restores de
 
 ## Cross-Browser Testing with jQuery
 
-Be sure to test web pages that use jQuery in all the browsers you want to support. The [Modern.IE](http://modern.ie/) site makes available virtual machines for testing many different versions of Internet Explorer. Older versions of other browsers can be found at [oldversion.com](http://oldversion.com/). 
+Be sure to test web pages that use jQuery in all the browsers you want to support. The [modern.IE](http://modern.ie/) site makes available [virtual machines](http://www.modern.ie/en-us/virtualization-tools#downloads) for testing many different versions of Internet Explorer. Older versions of other browsers can be found at [oldversion.com](http://oldversion.com/). 
 
 ## jQuery Pre-Release Builds
 
