@@ -1,6 +1,5 @@
 <script>{
-	"title": "jQuery Core Upgrade Guides",
-	"pageTemplate": "page-contentfull.php"
+	"title": "jQuery Core Upgrade Guides"
 }</script>
 
 ## [1.9 Upgrade Guide](/upgrade-guide/1.9/)

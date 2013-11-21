@@ -1,12 +1,9 @@
-<script>
-{
+<script>{
 	"title": "Download jQuery",
-	"pageTemplate": "page-contentfull.php",
 	"customFields": [
 		{ "key": "hide_title", "value": 1 }
 	]
-}
-</script>
+}</script>
 
 ## Downloading jQuery
 
