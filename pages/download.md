@@ -8,10 +8,9 @@
 ## Downloading jQuery
 
 Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during development or debugging; the compressed file saves bandwidth and improves performance in production.
-Starting with jQuery 1.9, we also make available
-[sourcemap files](http://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps)
-that can be used to debug the compressed file in sourcemap-aware browsers such as Google Chrome.
+You can also download a [sourcemap file](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) for use when debugging with a compressed file.
 The map file is _not_ required for users to run jQuery, it just improves the developer's debugger experience.
+As of jQuery 1.11.0/2.1.0 the `// sourceMappingURL` comment is [not included](http://blog.jquery.com/?p=3344) in the compressed file.
 
 To locally download these files, right-click the link and select "Save as..." from the menu.
 
@@ -24,13 +23,13 @@ Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-[Download the compressed, production jQuery 1.10.2](http://code.jquery.com/jquery-1.10.2.min.js)
+[Download the compressed, production jQuery 1.11.0](http://code.jquery.com/jquery-1.11.0.min.js)
 
-[Download the uncompressed, development jQuery 1.10.2](http://code.jquery.com/jquery-1.10.2.js)
+[Download the uncompressed, development jQuery 1.11.0](http://code.jquery.com/jquery-1.11.0.js)
 
-[Download the map file for jQuery 1.10.2](http://code.jquery.com/jquery-1.10.2.min.map)
+[Download the map file for jQuery 1.11.0](http://code.jquery.com/jquery-1.11.0.min.map)
 
-[jQuery 1.10.2 release notes](http://blog.jquery.com/?p=3006)
+[jQuery 1.11.0 release notes](http://blog.jquery.com/?p=3344)
 
 ### jQuery 2.x
 
@@ -40,13 +39,13 @@ Since IE 6/7/8 are still relatively common, we recommend using the 1.x version u
 are certain no IE 6/7/8 users are visiting the site.
 Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
 
-[Download the compressed, production jQuery 2.0.3](http://code.jquery.com/jquery-2.0.3.min.js)
+[Download the compressed, production jQuery 2.1.0](http://code.jquery.com/jquery-2.1.0.min.js)
 
-[Download the uncompressed, development jQuery 2.0.3](http://code.jquery.com/jquery-2.0.3.js)
+[Download the uncompressed, development jQuery 2.1.0](http://code.jquery.com/jquery-2.1.0.js)
 
-[Download the map file for jQuery 2.0.3](http://code.jquery.com/jquery-2.0.3.min.map)
+[Download the map file for jQuery 2.1.0](http://code.jquery.com/jquery-2.1.0.min.map)
 
-[jQuery 2.0.3 release notes](http://blog.jquery.com/?p=3006)
+[jQuery 2.1.0 release notes](http://blog.jquery.com/?p=3344)
 
 ## jQuery Migrate Plugin
 
