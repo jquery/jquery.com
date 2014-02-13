@@ -77,7 +77,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 To use the jQuery CDN, just reference the file directly from `http://code.jquery.com` in the script tag:
 ```
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 ```
 
