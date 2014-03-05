@@ -91,7 +91,7 @@ The following CDNs also host compressed and uncompressed versions of jQuery rele
 
 **Note that there may be delays between a jQuery release and its availability there. Please be patient, they receive the files at the same time the blog post is made public. Beta and release candidates are not hosted by these CDNs.**
 
-* [Google CDN](http://code.google.com/apis/ajaxlibs/documentation/index.html#jquery)
+* [Google CDN](https://developers.google.com/speed/libraries/devguide#jquery)
 * [Microsoft CDN](http://www.asp.net/ajaxlibrary/cdn.ashx#jQuery_Releases_on_the_CDN_0)
 * [CDNJS CDN](http://cdnjs.com/libraries/jquery/)
 
