@@ -10,7 +10,7 @@
 Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during development or debugging; the compressed file saves bandwidth and improves performance in production.
 You can also download a [sourcemap file](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) for use when debugging with a compressed file.
 The map file is _not_ required for users to run jQuery, it just improves the developer's debugger experience.
-As of jQuery 1.11.0/2.1.0 the `// sourceMappingURL` comment is [not included](http://blog.jquery.com/?p=3344) in the compressed file.
+As of jQuery 1.11.0/2.1.0 the `//# sourceMappingURL` comment is [not included](http://blog.jquery.com/?p=3344) in the compressed file.
 
 To locally download these files, right-click the link and select "Save as..." from the menu.
 
