@@ -47,6 +47,18 @@ Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0
 
 [jQuery 2.1.1 release notes](http://blog.jquery.com/?p=3467)
 
+## Downloading jQuery using Bower
+jQuery is registered as a package with [Bower](http://bower.io). You can install the latest version of jQuery with the command:
+```
+bower install jquery
+```
+This will install jQuery to Bower's install directory, the default being `bower_components`. Within `bower_components/jquery/dist/` you will find an uncompressed release, a compressed release, and a map file.
+
+The jQuery Bower package contains additional files besides the default distribution. In most cases you can ignore these files, however if you wish to download the default release on it's own you can use Bower to install jQuery from one of the above urls instead of the registered package. For example, if you wish to install just the compressed jQuery 2.1.0, you can install just that file with the following command:
+```
+bower install http://code.jquery.com/jquery-2.1.0.min.js
+```
+
 ## jQuery Migrate Plugin
 
 We have created the [jQuery Migrate plugin](http://github.com/jquery/jquery-migrate/#readme)
