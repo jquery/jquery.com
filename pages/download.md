@@ -23,29 +23,29 @@ Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-[Download the compressed, production jQuery 1.11.0](http://code.jquery.com/jquery-1.11.0.min.js)
+[Download the compressed, production jQuery 1.11.1](http://code.jquery.com/jquery-1.11.1.min.js)
 
-[Download the uncompressed, development jQuery 1.11.0](http://code.jquery.com/jquery-1.11.0.js)
+[Download the uncompressed, development jQuery 1.11.1](http://code.jquery.com/jquery-1.11.1.js)
 
-[Download the map file for jQuery 1.11.0](http://code.jquery.com/jquery-1.11.0.min.map)
+[Download the map file for jQuery 1.11.1](http://code.jquery.com/jquery-1.11.1.min.map)
 
-[jQuery 1.11.0 release notes](http://blog.jquery.com/?p=3344)
+[jQuery 1.11.1 release notes](http://blog.jquery.com/?p=3467)
 
 ### jQuery 2.x
 
 jQuery 2.x has the same API as jQuery 1.x, but _does not support Internet Explorer 6, 7, or 8_.
 All the notes in the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/) apply here as well.
-Since IE 6/7/8 are still relatively common, we recommend using the 1.x version unless you
+Since IE 8 is still relatively common, we recommend using the 1.x version unless you
 are certain no IE 6/7/8 users are visiting the site.
 Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
 
-[Download the compressed, production jQuery 2.1.0](http://code.jquery.com/jquery-2.1.0.min.js)
+[Download the compressed, production jQuery 2.1.1](http://code.jquery.com/jquery-2.1.1.min.js)
 
-[Download the uncompressed, development jQuery 2.1.0](http://code.jquery.com/jquery-2.1.0.js)
+[Download the uncompressed, development jQuery 2.1.1](http://code.jquery.com/jquery-2.1.1.js)
 
-[Download the map file for jQuery 2.1.0](http://code.jquery.com/jquery-2.1.0.min.map)
+[Download the map file for jQuery 2.1.1](http://code.jquery.com/jquery-2.1.1.min.map)
 
-[jQuery 2.1.0 release notes](http://blog.jquery.com/?p=3344)
+[jQuery 2.1.1 release notes](http://blog.jquery.com/?p=3467)
 
 ## jQuery Migrate Plugin
 
@@ -129,17 +129,5 @@ The README file for a specific version will have instructions for building that 
 
 ## Past Releases
 
-All past releases can be found on the [jQuery CDN](http://code.jquery.com). Here are some commonly used recent versions:
-
-<table>
-	<thead><tr><th>Version</th><th>Docs</th><th>Downloads</th></tr></thead>
-	<tbody>
-		<tr><td>2.0.2</td><td><a href="http://blog.jquery.com/2013/05/30/jquery-1-10-1-and-2-0-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-2.0.2.min.js">Minified</a> <a href="http://code.jquery.com/jquery-2.0.2.js">Uncompressed</a></td></tr>
-		<tr><td>1.10.1</td><td><a href="http://blog.jquery.com/2013/05/30/jquery-1-10-1-and-2-0-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.10.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.10.1.js">Uncompressed</a></td></tr>
-		<tr><td>1.9.1</td><td><a href="http://blog.jquery.com/2013/02/04/jquery-1-9-1-released">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.9.1.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.9.1.js">Uncompressed</a></td></tr>
-		<tr><td>1.8.3</td><td><a href="http://blog.jquery.com/2012/11/13/jquery-1-8-3-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.8.3.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.8.3.js">Uncompressed</a></td></tr>
-		<tr><td>1.7.2</td><td><a href="http://blog.jquery.com/2012/03/21/jquery-1-7-2-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.7.2.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.7.2.js">Uncompressed</a></td></tr>
-		<tr><td>1.6.4</td><td><a href="http://blog.jquery.com/2011/09/12/jquery-1-6-4-released/">Release Notes</a></td><td><a href="http://code.jquery.com/jquery-1.6.4.min.js">Minified</a> <a href="http://code.jquery.com/jquery-1.6.4.js">Uncompressed</a></td></tr>
-	</tbody>
-</table>
+All past releases can be found on the [jQuery CDN](http://code.jquery.com). 
 
