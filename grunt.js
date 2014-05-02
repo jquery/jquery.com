@@ -48,7 +48,7 @@ grunt.registerTask( "build-member-list", function() {
 
 	function getMembers( level, callback ) {
 		var request = https.request({
-			host: "raw.github.com",
+			host: "raw.githubusercontent.com",
 			path: "/jquery/jquery.org/master/data/members/" + level + ".json"
 		}, function ( response ) {
 			var json = "";
