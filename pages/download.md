@@ -23,11 +23,11 @@ Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-[Download the compressed, production jQuery 1.11.1](http://code.jquery.com/jquery-1.11.1.min.js)
+<a href="http://code.jquery.com/jquery-1.11.1.min.js" download>Download the compressed, production jQuery 1.11.1</a>
 
-[Download the uncompressed, development jQuery 1.11.1](http://code.jquery.com/jquery-1.11.1.js)
+<a href="http://code.jquery.com/jquery-1.11.1.js" download>Download the uncompressed, development jQuery 1.11.1</a>
 
-[Download the map file for jQuery 1.11.1](http://code.jquery.com/jquery-1.11.1.min.map)
+<a href="http://code.jquery.com/jquery-1.11.1.min.map" download>Download the map file for jQuery 1.11.1</a>
 
 [jQuery 1.11.1 release notes](http://blog.jquery.com/?p=3467)
 
@@ -39,11 +39,11 @@ Since IE 8 is still relatively common, we recommend using the 1.x version unless
 are certain no IE 6/7/8 users are visiting the site.
 Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
 
-[Download the compressed, production jQuery 2.1.1](http://code.jquery.com/jquery-2.1.1.min.js)
+<a href="http://code.jquery.com/jquery-2.1.1.min.js" download>Download the compressed, production jQuery 2.1.1</a>
 
-[Download the uncompressed, development jQuery 2.1.1](http://code.jquery.com/jquery-2.1.1.js)
+<a href="http://code.jquery.com/jquery-2.1.1.js" download>Download the uncompressed, development jQuery 2.1.1</a>
 
-[Download the map file for jQuery 2.1.1](http://code.jquery.com/jquery-2.1.1.min.map)
+<a href="http://code.jquery.com/jquery-2.1.1.min.map" download>Download the map file for jQuery 2.1.1</a>
 
 [jQuery 2.1.1 release notes](http://blog.jquery.com/?p=3467)
 
@@ -64,9 +64,9 @@ bower install http://code.jquery.com/jquery-2.1.0.min.js
 We have created the [jQuery Migrate plugin](http://github.com/jquery/jquery-migrate/#readme)
 to simplify the transition from older versions of jQuery. The plugin restores deprecated features and behaviors so that older code will still run properly on jQuery 1.9 and later. Use the _uncompressed development_ version to diagnose compatiblity issues, it will generate warnings on the console that you can use to identify and fix problems. Use the _compressed production_ version to simply fix compatibility issues without generating console warnings.
 
-[Download the compressed, production jQuery Migrate 1.2.1](http://code.jquery.com/jquery-migrate-1.2.1.min.js)
+<a href="http://code.jquery.com/jquery-migrate-1.2.1.min.js" download>Download the compressed, production jQuery Migrate 1.2.1</a>
 
-[Download the uncompressed, development jQuery Migrate 1.2.1](http://code.jquery.com/jquery-migrate-1.2.1.js)
+<a href="http://code.jquery.com/jquery-migrate-1.2.1.js" download>Download the uncompressed, development jQuery Migrate 1.2.1</a>
 
 ## Cross-Browser Testing with jQuery
 
@@ -76,9 +76,9 @@ Be sure to test web pages that use jQuery in all the browsers you want to suppor
 
 The jQuery team is constantly working to improve the code. Each commit to the Github repo generates a work-in-progress version of the code that we update on the jQuery CDN. _These versions are sometimes unstable and not suitable for production sites._ We recommend they be used to determine whether a bug has already been fixed when reporting bugs against released versions, or to see if new bugs have been introduced. There are two versions, one for the 1.x branch (supports IE 6/7/8) and one for the 2.x branch (not for use with old IE).
 
-[Download the work-in-progress jQuery **1.x** build - http://code.jquery.com/jquery-git1.js](http://code.jquery.com/jquery-git1.js)
+<a href="http://code.jquery.com/jquery-git1.js" download>Download the work-in-progress jQuery **1.x** build</a>
 
-[Download the work-in-progress jQuery **2.x** build - http://code.jquery.com/jquery-git2.js](http://code.jquery.com/jquery-git2.js)
+<a href="http://code.jquery.com/jquery-git2.js" download>Download the work-in-progress jQuery **2.x** build</a>
 
 ## Using jQuery with a CDN
 
