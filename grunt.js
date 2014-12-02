@@ -1,30 +1,12 @@
-"use strict";
-
 var rimraf = require( "rimraf" );
 
 module.exports = function( grunt ) {
 
-grunt.loadNpmTasks( "grunt-clean" );
-grunt.loadNpmTasks( "grunt-wordpress" );
-grunt.loadNpmTasks( "grunt-jquery-content" );
 grunt.loadNpmTasks( "grunt-check-modules" );
+grunt.loadNpmTasks( "grunt-jquery-content" );
+grunt.loadNpmTasks( "grunt-wordpress" );
 
 grunt.initConfig({
-	jshint: {
-		options: {
-			undef: true,
-			node: true
-		}
-	},
-	lint: {
-		grunt: "grunt.js"
-	},
-	watch: {
-		pages: {
-			files: "pages/**/*",
-			tasks: "deploy"
-		}
-	},
 	"build-pages": {
 		all: grunt.file.expandFiles( "pages/**" )
 	},
@@ -98,9 +80,7 @@ grunt.registerTask( "build-member-list", function() {
 	});
 });
 
-grunt.registerTask( "default", "lint wordpress-deploy" );
-grunt.registerTask( "build-wordpress",
-	"check-modules clean lint build-pages build-resources build-member-list" );
-grunt.registerTask( "deploy", "wordpress-deploy" );
+grunt.registerTask( "build", "build-pages build-resources build-member-list" );
+grunt.registerTask( "build-wordpress", "check-modules clean build" );
 
 };
