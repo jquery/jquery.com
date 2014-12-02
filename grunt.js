@@ -3,7 +3,6 @@
 module.exports = function( grunt ) {
 
 grunt.loadNpmTasks( "grunt-clean" );
-grunt.loadNpmTasks( "grunt-html" );
 grunt.loadNpmTasks( "grunt-wordpress" );
 grunt.loadNpmTasks( "grunt-jquery-content" );
 grunt.loadNpmTasks( "grunt-check-modules" );
@@ -11,9 +10,6 @@ grunt.loadNpmTasks( "grunt-check-modules" );
 grunt.initConfig({
 	clean: {
 		folder: "dist/"
-	},
-	htmllint: {
-		page: "page/*.html"
 	},
 	jshint: {
 		options: {
