@@ -1,21 +1,23 @@
-var rimraf = require( "rimraf" );
+var async = require( "async" ),
+	rimraf = require( "rimraf" );
 
 module.exports = function( grunt ) {
 
 grunt.loadNpmTasks( "grunt-check-modules" );
 grunt.loadNpmTasks( "grunt-jquery-content" );
-grunt.loadNpmTasks( "grunt-wordpress" );
 
 grunt.initConfig({
 	"build-pages": {
-		all: grunt.file.expandFiles( "pages/**" )
+		all: "pages/**"
 	},
 	"build-resources": {
-		all: grunt.file.expandFiles( "resources/*" )
+		all: "resources/**"
 	},
-	wordpress: grunt.utils._.extend({
-		dir: "dist/wordpress"
-	}, grunt.file.readJSON( "config.json" ) )
+	wordpress: (function() {
+		var config = require( "./config" );
+		config.dir = "dist/wordpress";
+		return config;
+	})()
 });
 
 grunt.registerTask( "clean", function() {
@@ -51,14 +53,13 @@ grunt.registerTask( "build-member-list", function() {
 		request.end();
 	}
 
-	grunt.utils.async.parallel({
+	async.parallel({
 		founding: getMembers.bind( null, "founding" ),
 		platinum: getMembers.bind( null, "platinum" ),
 		gold: getMembers.bind( null, "gold" )
 	}, function( error, members ) {
 		if ( error ) {
-			grunt.log.error( error );
-			return done( false );
+			return done( error );
 		}
 
 		var corporateMembers = members.founding
@@ -80,7 +81,7 @@ grunt.registerTask( "build-member-list", function() {
 	});
 });
 
-grunt.registerTask( "build", "build-pages build-resources build-member-list" );
-grunt.registerTask( "build-wordpress", "check-modules clean build" );
+grunt.registerTask( "build", [ "build-pages", "build-resources", "build-member-list" ] );
+grunt.registerTask( "build-wordpress", [ "check-modules", "clean", "build" ] );
 
 };
