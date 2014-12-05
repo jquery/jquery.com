@@ -4,8 +4,7 @@
   "version": "2.0.34",
   "homepage": "https://github.com/jquery/jquery.com",
   "author": {
-    "name": "jQuery Foundation",
-    "url": "http://jquery.org/"
+    "name": "jQuery Foundation and other contributors"
   },
   "repository": {
     "type": "git",
@@ -17,7 +16,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
+      "url": "https://github.com/jquery/jquery.com/blob/master/LICENSE.txt"
     }
   ],
   "dependencies": {
