@@ -1,14 +1,12 @@
-var async = require( "async" ),
-	rimraf = require( "rimraf" );
+var async = require( "async" );
 
 module.exports = function( grunt ) {
 
-grunt.loadNpmTasks( "grunt-check-modules" );
 grunt.loadNpmTasks( "grunt-jquery-content" );
 
 grunt.initConfig({
-	"build-pages": {
-		all: "pages/**"
+	"build-posts": {
+		page: "pages/**"
 	},
 	"build-resources": {
 		all: "resources/**"
@@ -18,10 +16,6 @@ grunt.initConfig({
 		config.dir = "dist/wordpress";
 		return config;
 	})()
-});
-
-grunt.registerTask( "clean", function() {
-	rimraf.sync( "dist" );
 });
 
 grunt.registerTask( "build-member-list", function() {
@@ -81,7 +75,6 @@ grunt.registerTask( "build-member-list", function() {
 	});
 });
 
-grunt.registerTask( "build", [ "build-pages", "build-resources", "build-member-list" ] );
-grunt.registerTask( "build-wordpress", [ "check-modules", "clean", "build" ] );
+grunt.registerTask( "build", [ "build-posts", "build-resources", "build-member-list" ] );
 
 };
