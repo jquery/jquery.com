@@ -23,11 +23,11 @@ Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-<a href="http://code.jquery.com/jquery-1.11.1.min.js" download>Download the compressed, production jQuery 1.11.1</a>
+<a href="http://code.jquery.com/jquery-1.11.2.min.js" download>Download the compressed, production jQuery 1.11.2</a>
 
-<a href="http://code.jquery.com/jquery-1.11.1.js" download>Download the uncompressed, development jQuery 1.11.1</a>
+<a href="http://code.jquery.com/jquery-1.11.2.js" download>Download the uncompressed, development jQuery 1.11.2</a>
 
-<a href="http://code.jquery.com/jquery-1.11.1.min.map" download>Download the map file for jQuery 1.11.1</a>
+<a href="http://code.jquery.com/jquery-1.11.2.min.map" download>Download the map file for jQuery 1.11.2</a>
 
 [jQuery 1.11.1 release notes](http://blog.jquery.com/?p=3467)
 
@@ -39,11 +39,11 @@ Since IE 8 is still relatively common, we recommend using the 1.x version unless
 are certain no IE 6/7/8 users are visiting the site.
 Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
 
-<a href="http://code.jquery.com/jquery-2.1.1.min.js" download>Download the compressed, production jQuery 2.1.1</a>
+<a href="http://code.jquery.com/jquery-2.1.3.min.js" download>Download the compressed, production jQuery 2.1.3</a>
 
-<a href="http://code.jquery.com/jquery-2.1.1.js" download>Download the uncompressed, development jQuery 2.1.1</a>
+<a href="http://code.jquery.com/jquery-2.1.3.js" download>Download the uncompressed, development jQuery 2.1.3</a>
 
-<a href="http://code.jquery.com/jquery-2.1.1.min.map" download>Download the map file for jQuery 2.1.1</a>
+<a href="http://code.jquery.com/jquery-2.1.3.min.map" download>Download the map file for jQuery 2.1.3</a>
 
 [jQuery 2.1.1 release notes](http://blog.jquery.com/?p=3467)
 
@@ -89,7 +89,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 To use the jQuery CDN, just reference the file directly from `http://code.jquery.com` in the script tag:
 ```
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 ```
 
