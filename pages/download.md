@@ -78,9 +78,9 @@ Be sure to test web pages that use jQuery in all the browsers you want to suppor
 
 The jQuery team is constantly working to improve the code. Each commit to the Github repo generates a work-in-progress version of the code that we update on the jQuery CDN. _These versions are sometimes unstable and not suitable for production sites._ We recommend they be used to determine whether a bug has already been fixed when reporting bugs against released versions, or to see if new bugs have been introduced. There are two versions, one for the `compat` branch (supports IE 8) and one for the `master` branch (not for use with old IE).
 
-<a href="//code.jquery.com/jquery-compat-git.js" download>Download the work-in-progress jQuery Compat build</a>
+<a href="https://code.jquery.com/jquery-compat-git.js" download>Download the work-in-progress jQuery Compat build</a>
 
-<a href="//code.jquery.com/jquery-git.js" download>Download the work-in-progress jQuery build</a>
+<a href="https://code.jquery.com/jquery-git.js" download>Download the work-in-progress jQuery build</a>
 
 ## Using jQuery with a CDN
 
@@ -91,8 +91,8 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 To use the jQuery CDN, just reference the file directly from `http://code.jquery.com` in the script tag:
 ```
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 ```
 
 Starting with jQuery 1.9, [sourcemap files](http://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps) are available on the jQuery CDN as well. If compressed files are included directly from the CDN as shown above, sourcemap-aware browsers such as Google Chrome will use them when you enable sourcemap support.
