@@ -40,11 +40,11 @@ Since IE 8 is still relatively common, we recommend using the 1.x version unless
 are certain no IE 6/7/8 users are visiting the site.
 Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
 
-<a href="http://code.jquery.com/jquery-2.1.4.min.js" download>Download the compressed, production jQuery 2.1.3</a>
+<a href="http://code.jquery.com/jquery-2.1.4.min.js" download>Download the compressed, production jQuery 2.1.4</a>
 
-<a href="http://code.jquery.com/jquery-2.1.4.js" download>Download the uncompressed, development jQuery 2.1.3</a>
+<a href="http://code.jquery.com/jquery-2.1.4.js" download>Download the uncompressed, development jQuery 2.1.4</a>
 
-<a href="http://code.jquery.com/jquery-2.1.4.min.map" download>Download the map file for jQuery 2.1.3</a>
+<a href="http://code.jquery.com/jquery-2.1.4.min.map" download>Download the map file for jQuery 2.1.4</a>
 
 [jQuery 2.1.4 release
 notes](http://blog.jquery.com/2015/04/28/jquery-1-11-3-and-2-1-4-released-ios-fail-safe-edition/)
