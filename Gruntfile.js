@@ -48,7 +48,7 @@ grunt.registerTask( "build-member-list", function() {
 	}
 
 	async.parallel({
-		founding: getMembers.bind( null, "founding" ),
+		founding: getMembers.bind( null, "diamond" ),
 		platinum: getMembers.bind( null, "platinum" ),
 		gold: getMembers.bind( null, "gold" )
 	}, function( error, members ) {
