@@ -23,14 +23,14 @@ Read the [jQuery 1.9 Upgrade Guide](http://jquery.com/upgrade-guide/1.9/)
 and the [jQuery 1.9 release blog post](http://blog.jquery.com/2013/01/15/jquery-1-9-final-jquery-2-0-beta-migrate-final-released/)
 for more information.
 
-<a href="http://code.jquery.com/jquery-1.12.1.min.js" download>Download the compressed, production jQuery 1.12.1</a>
+<a href="http://code.jquery.com/jquery-1.12.2.min.js" download>Download the compressed, production jQuery 1.12.2</a>
 
-<a href="http://code.jquery.com/jquery-1.12.1.js" download>Download the uncompressed, development jQuery 1.12.1</a>
+<a href="http://code.jquery.com/jquery-1.12.2.js" download>Download the uncompressed, development jQuery 1.12.2</a>
 
-<a href="http://code.jquery.com/jquery-1.12.1.min.map" download>Download the map file for jQuery 1.12.1</a>
+<a href="http://code.jquery.com/jquery-1.12.2.min.map" download>Download the map file for jQuery 1.12.2</a>
 
-[jQuery 1.12.1 release
-notes](http://blog.jquery.com/2016/02/22/jquery-1-12-1-and-2-2-1-released/)
+[jQuery 1.12.2 release
+notes](http://blog.jquery.com/2016/03/17/jquery-1-12-2-and-2-2-2-released/)
 
 ### jQuery 2.x
 
@@ -40,14 +40,14 @@ Since IE 8 is still relatively common, we recommend using the 1.x version unless
 are certain no IE 6/7/8 users are visiting the site.
 Please read the [2.0 release notes](http://blog.jquery.com/2013/04/18/jquery-2-0-released/) carefully.
 
-<a href="http://code.jquery.com/jquery-2.2.1.min.js" download>Download the compressed, production jQuery 2.2.1</a>
+<a href="http://code.jquery.com/jquery-2.2.2.min.js" download>Download the compressed, production jQuery 2.2.2</a>
 
-<a href="http://code.jquery.com/jquery-2.2.1.js" download>Download the uncompressed, development jQuery 2.2.1</a>
+<a href="http://code.jquery.com/jquery-2.2.2.js" download>Download the uncompressed, development jQuery 2.2.2</a>
 
-<a href="http://code.jquery.com/jquery-2.2.1.min.map" download>Download the map file for jQuery 2.2.1</a>
+<a href="http://code.jquery.com/jquery-2.2.2.min.map" download>Download the map file for jQuery 2.2.2</a>
 
-[jQuery 2.2.1 release
-notes](http://blog.jquery.com/2016/02/22/jquery-1-12-1-and-2-2-1-released/)
+[jQuery 2.2.2 release
+notes](http://blog.jquery.com/2016/03/17/jquery-1-12-2-and-2-2-2-released/)
 
 ## Downloading jQuery using Bower
 jQuery is registered as a package with [Bower](http://bower.io). You can install the latest version of jQuery with the command:
@@ -58,7 +58,7 @@ This will install jQuery to Bower's install directory, the default being `bower_
 
 The jQuery Bower package contains additional files besides the default distribution. In most cases you can ignore these files, however if you wish to download the default release on its own you can use Bower to install jQuery from one of the above urls instead of the registered package. For example, if you wish to install just the compressed jQuery 2.1.0, you can install just that file with the following command:
 ```
-bower install http://code.jquery.com/jquery-2.2.1.min.js
+bower install http://code.jquery.com/jquery-2.2.2.min.js
 ```
 
 ## jQuery Migrate Plugin
