@@ -72,7 +72,7 @@ to simplify the transition from older versions of jQuery. The plugin restores de
 
 ## Cross-Browser Testing with jQuery
 
-Be sure to test web pages that use jQuery in all the browsers you want to support. The [modern.IE](https://modern.ie/) site makes available [virtual machines](https://modern.ie/en-us/virtualization-tools#downloads) for testing many different versions of Internet Explorer. Older versions of other browsers can be found at [oldversion.com](http://oldversion.com/).
+Be sure to test web pages that use jQuery in all the browsers you want to support. The [Microsoft Developer Resources](https://developer.microsoft.com/en-us/microsoft-edge/) site makes available [virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) for testing many different versions of Internet Explorer. Older versions of other browsers can be found at [oldversion.com](http://oldversion.com/).
 
 ## jQuery Pre-Release Builds
 
@@ -106,7 +106,7 @@ The following CDNs also host compressed and uncompressed versions of jQuery rele
 **Note that there may be delays between a jQuery release and its availability there. Please be patient, they receive the files at the same time the blog post is made public. Beta and release candidates are not hosted by these CDNs.**
 
 * [Google CDN](https://developers.google.com/speed/libraries/devguide#jquery)
-* [Microsoft CDN](https://www.asp.net/ajaxlibrary/cdn.ashx#jQuery_Releases_on_the_CDN_0)
+* [Microsoft CDN](https://www.asp.net/ajax/cdn#jQuery_Releases_on_the_CDN_0)
 * [CDNJS CDN](https://cdnjs.com/libraries/jquery/)
 * [jsDelivr CDN](https://www.jsdelivr.com/#!jquery)
 
