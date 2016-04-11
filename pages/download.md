@@ -66,9 +66,9 @@ bower install https://code.jquery.com/jquery-2.2.3.min.js
 We have created the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate/#readme)
 to simplify the transition from older versions of jQuery. The plugin restores deprecated features and behaviors so that older code will still run properly on jQuery 1.9 and later. Use the _uncompressed development_ version to diagnose compatibility issues, it will generate warnings on the console that you can use to identify and fix problems. Use the _compressed production_ version to simply fix compatibility issues without generating console warnings.
 
-<a href="https://code.jquery.com/jquery-migrate-1.2.1.min.js" download>Download the compressed, production jQuery Migrate 1.2.1</a>
+<a href="https://code.jquery.com/jquery-migrate-1.3.0.min.js" download>Download the compressed, production jQuery Migrate 1.3.0</a>
 
-<a href="https://code.jquery.com/jquery-migrate-1.2.1.js" download>Download the uncompressed, development jQuery Migrate 1.2.1</a>
+<a href="https://code.jquery.com/jquery-migrate-1.3.0.js" download>Download the uncompressed, development jQuery Migrate 1.3.0</a>
 
 ## Cross-Browser Testing with jQuery
 
@@ -91,8 +91,8 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 To use the jQuery CDN, just reference the file directly from `https://code.jquery.com` in the script tag:
 ```
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.3.0.min.js"></script>
 ```
 
 Starting with jQuery 1.9, [sourcemap files](https://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps) are available on the jQuery CDN as well. If compressed files are included directly from the CDN as shown above, sourcemap-aware browsers such as Google Chrome will use them when you enable sourcemap support.
