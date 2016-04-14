@@ -76,9 +76,7 @@ Be sure to test web pages that use jQuery in all the browsers you want to suppor
 
 ## jQuery Pre-Release Builds
 
-The jQuery team is constantly working to improve the code. Each commit to the Github repo generates a work-in-progress version of the code that we update on the jQuery CDN. _These versions are sometimes unstable and not suitable for production sites._ We recommend they be used to determine whether a bug has already been fixed when reporting bugs against released versions, or to see if new bugs have been introduced. There are two versions, one for the `compat` branch (supports IE 8) and one for the `master` branch (not for use with old IE).
-
-<a href="https://code.jquery.com/jquery-compat-git.js" download>Download the work-in-progress jQuery Compat build</a>
+The jQuery team is constantly working to improve the code. Each commit to the Github repo generates a work-in-progress version of the code that we update on the jQuery CDN. _These versions are sometimes unstable and never suitable for production sites._ We recommend they be used to determine whether a bug has already been fixed when reporting bugs against released versions, or to see if new bugs have been introduced.
 
 <a href="https://code.jquery.com/jquery-git.js" download>Download the work-in-progress jQuery build</a>
 
