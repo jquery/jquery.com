@@ -87,13 +87,11 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 ### jQuery's CDN provided by [MaxCDN](https://www.maxcdn.com)
 
-To use the jQuery CDN, just reference the file directly from `https://code.jquery.com` in the script tag:
-```
-<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-<script src="https://code.jquery.com/jquery-migrate-1.3.0.min.js"></script>
-```
+The jQuery CDN supports [https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity](Subresource Integrity) (SRI) which allows the browser to verify that the files being delivered have not been modified. This [https://www.w3.org/TR/SRI/](specification) is currently being implemented by browsers. Adding the new integrity attribute will ensure your application gains this security improvement as browsers support it.
 
-Starting with jQuery 1.9, [sourcemap files](https://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps) are available on the jQuery CDN as well. If compressed files are included directly from the CDN as shown above, sourcemap-aware browsers such as Google Chrome will use them when you enable sourcemap support.
+To use the jQuery CDN, just reference the file in the script tag directly from the jQuery CDN domain. You can get the complete script tag, including Subresource Integrity attribute, by visiting https://code.jquery.com and clicking on the version of the file that you want to use. Copy and paste that tag into your HTML file.
+
+Starting with jQuery 1.9, [sourcemap files](https://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps) are available on the jQuery CDN. However, as of version 1.10.0/2.1.0 the compressed jQuery no longer includes the sourcemap comment in CDN copies because it requires the the uncompressed file and sourcemap file to be placed at the same location as the compressed file. If you are maintaining local copies and can control the locations all three files, you can add the sourcemap comment to the compressed file for easier debugging.
 
 To see all available files and versions, visit [https://code.jquery.com](https://code.jquery.com)
 
