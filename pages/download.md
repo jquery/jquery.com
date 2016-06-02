@@ -66,9 +66,9 @@ bower install https://code.jquery.com/jquery-2.2.4.min.js
 We have created the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate/#readme)
 to simplify the transition from older versions of jQuery. The plugin restores deprecated features and behaviors so that older code will still run properly on jQuery 1.9 and later. Use the _uncompressed development_ version to diagnose compatibility issues, it will generate warnings on the console that you can use to identify and fix problems. Use the _compressed production_ version to simply fix compatibility issues without generating console warnings.
 
-<a href="https://code.jquery.com/jquery-migrate-1.3.0.min.js" download>Download the compressed, production jQuery Migrate 1.3.0</a>
+<a href="https://code.jquery.com/jquery-migrate-1.4.1.min.js" download>Download the compressed, production jQuery Migrate 1.4.1</a>
 
-<a href="https://code.jquery.com/jquery-migrate-1.3.0.js" download>Download the uncompressed, development jQuery Migrate 1.3.0</a>
+<a href="https://code.jquery.com/jquery-migrate-1.4.1.js" download>Download the uncompressed, development jQuery Migrate 1.4.1</a>
 
 ## Cross-Browser Testing with jQuery
 
