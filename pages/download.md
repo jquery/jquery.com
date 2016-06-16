@@ -81,7 +81,7 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 ### jQuery's CDN provided by [MaxCDN](https://www.maxcdn.com)
 
-The jQuery CDN supports [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI) which allows the browser to verify that the files being delivered have not been modified. This [https://www.w3.org/TR/SRI/](specification) is currently being implemented by browsers. Adding the new integrity attribute will ensure your application gains this security improvement as browsers support it. 
+The jQuery CDN supports [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI) which allows the browser to verify that the files being delivered have not been modified. This [specification](https://www.w3.org/TR/SRI/) is currently being implemented by browsers. Adding the new integrity attribute will ensure your application gains this security improvement as browsers support it. 
 
 To use the jQuery CDN, just reference the file in the script tag directly from the jQuery CDN domain. You can get the complete script tag, including Subresource Integrity attribute, by visiting https://code.jquery.com and clicking on the version of the file that you want to use. Copy and paste that tag into your HTML file.
 
