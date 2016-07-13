@@ -19,14 +19,14 @@ To locally download these files, right-click the link and select "Save as..." fr
 For help when upgrading jQuery, please see the [upgrade guide](https://jquery.com/upgrade-guide/) most relevant to your version.
 We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate).
 
-<a href="https://code.jquery.com/jquery-3.0.0.min.js" download>Download the compressed, production jQuery 3.0.0</a>
+<a href="https://code.jquery.com/jquery-3.1.0.min.js" download>Download the compressed, production jQuery 3.1.0</a>
 
-<a href="https://code.jquery.com/jquery-3.0.0.js" download>Download the uncompressed, development jQuery 3.0.0</a>
+<a href="https://code.jquery.com/jquery-3.1.0.js" download>Download the uncompressed, development jQuery 3.1.0</a>
 
-<a href="https://code.jquery.com/jquery-3.0.0.min.map" download>Download the map file for jQuery 3.0.0</a>
+<a href="https://code.jquery.com/jquery-3.1.0.min.map" download>Download the map file for jQuery 3.1.0</a>
 
-[jQuery 3.0.0 release
-notes](http://blog.jquery.com/2016/06/09/jquery-3-0-final-released/)
+[jQuery 3.1.0 release
+notes](https://blog.jquery.com/2016/07/07/jquery-3-1-0-released-no-more-silent-errors/)
 
 ## Downloading jQuery using npm
 jQuery is registered as [a package](https://www.npmjs.com/package/jquery) on [npm](https://www.npmjs.com/). You can install the latest version of jQuery with the command:
@@ -44,7 +44,7 @@ This will install jQuery to Bower's install directory, the default being `bower_
 
 The jQuery Bower package contains additional files besides the default distribution. In most cases you can ignore these files, however if you wish to download the default release on its own you can use Bower to install jQuery from one of the above urls instead of the registered package. For example, if you wish to install just the compressed jQuery file, you can install just that file with the following command:
 ```
-bower install https://code.jquery.com/jquery-3.0.0.min.js
+bower install https://code.jquery.com/jquery-3.1.0.min.js
 ```
 
 ## jQuery Migrate Plugin
