@@ -25,6 +25,14 @@ We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jq
 
 <a href="https://code.jquery.com/jquery-3.1.0.min.map" download>Download the map file for jQuery 3.1.0</a>
 
+You can also use the slim version:
+
+<a href="https://code.jquery.com/jquery-3.1.0.slim.min.js" download>Download the compressed, production jQuery 3.1.0 slim build</a>
+
+<a href="https://code.jquery.com/jquery-3.1.0.slim.js" download>Download the uncompressed, development jQuery 3.1.0 slim build</a>
+
+<a href="https://code.jquery.com/jquery-3.1.0.slim.min.map" download>Download the map file for the jQuery 3.1.0 slim build</a>
+
 [jQuery 3.1.0 release
 notes](https://blog.jquery.com/2016/07/07/jquery-3-1-0-released-no-more-silent-errors/)
 
