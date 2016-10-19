@@ -54,6 +54,16 @@ The jQuery Bower package contains additional files besides the default distribut
 bower install https://code.jquery.com/jquery-3.1.1.min.js
 ```
 
+
+## Downloading jQuery using Yarn
+jQuery can also be downloaded using [Yarn](https://github.com/yarnpkg/yarn) – an alternative CLI component to npm and Bower:
+
+```
+yarn add jquery
+```
+
+Like when installing it [using npm](#downloading-jquery-using-npm) you'll find production-ready files within the `./node_modules/jquery/dist/` folder.
+
 ## jQuery Migrate Plugin
 
 We have created the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate/#readme)
