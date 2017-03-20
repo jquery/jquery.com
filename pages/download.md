@@ -19,21 +19,21 @@ To locally download these files, right-click the link and select "Save as..." fr
 For help when upgrading jQuery, please see the [upgrade guide](https://jquery.com/upgrade-guide/) most relevant to your version.
 We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate).
 
-<a href="https://code.jquery.com/jquery-3.2.0.min.js" download>Download the compressed, production jQuery 3.2.0</a>
+<a href="https://code.jquery.com/jquery-3.2.1.min.js" download>Download the compressed, production jQuery 3.2.1</a>
 
-<a href="https://code.jquery.com/jquery-3.2.0.js" download>Download the uncompressed, development jQuery 3.2.0</a>
+<a href="https://code.jquery.com/jquery-3.2.1.js" download>Download the uncompressed, development jQuery 3.2.1</a>
 
-<a href="https://code.jquery.com/jquery-3.2.0.min.map" download>Download the map file for jQuery 3.2.0</a>
+<a href="https://code.jquery.com/jquery-3.2.1.min.map" download>Download the map file for jQuery 3.2.1</a>
 
 You can also use the slim version:
 
-<a href="https://code.jquery.com/jquery-3.2.0.slim.min.js" download>Download the compressed, production jQuery 3.2.0 slim build</a>
+<a href="https://code.jquery.com/jquery-3.2.1.slim.min.js" download>Download the compressed, production jQuery 3.2.1 slim build</a>
 
-<a href="https://code.jquery.com/jquery-3.2.0.slim.js" download>Download the uncompressed, development jQuery 3.2.0 slim build</a>
+<a href="https://code.jquery.com/jquery-3.2.1.slim.js" download>Download the uncompressed, development jQuery 3.2.1 slim build</a>
 
-<a href="https://code.jquery.com/jquery-3.2.0.slim.min.map" download>Download the map file for the jQuery 3.2.0 slim build</a>
+<a href="https://code.jquery.com/jquery-3.2.1.slim.min.map" download>Download the map file for the jQuery 3.2.1 slim build</a>
 
-[jQuery 3.2.0 release notes](http://blog.jquery.com/2017/03/16/jquery-3-2-0-is-out/)
+[jQuery 3.2.1 release notes](http://blog.jquery.com/2017/03/20/jquery-3-2-1-now-available/)
 
 ## Downloading jQuery using npm
 jQuery is registered as [a package](https://www.npmjs.com/package/jquery) on [npm](https://www.npmjs.com/). You can install the latest version of jQuery with the command:
@@ -51,7 +51,7 @@ This will install jQuery to Bower's install directory, the default being `bower_
 
 The jQuery Bower package contains additional files besides the default distribution. In most cases you can ignore these files, however if you wish to download the default release on its own you can use Bower to install jQuery from one of the above urls instead of the registered package. For example, if you wish to install just the compressed jQuery file, you can install just that file with the following command:
 ```
-bower install https://code.jquery.com/jquery-3.2.0.min.js
+bower install https://code.jquery.com/jquery-3.2.1.min.js
 ```
 
 ## jQuery Migrate Plugin
