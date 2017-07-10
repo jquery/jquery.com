@@ -86,7 +86,7 @@ The jQuery team is constantly working to improve the code. Each commit to the Gi
 [CDNs](https://en.wikipedia.org/wiki/Content_delivery_network) can offer a performance benefit by hosting jQuery on servers spread across the globe. This also offers an advantage that
 if the visitor to your webpage has already downloaded a copy of jQuery from the same CDN, it won't have to be re-downloaded.
 
-### jQuery's CDN provided by [MaxCDN](https://www.maxcdn.com)
+### jQuery's CDN provided by [StackPath](https://www.stackpath.com)
 
 The jQuery CDN supports [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI) which allows the browser to verify that the files being delivered have not been modified. This [specification](https://www.w3.org/TR/SRI/) is currently being implemented by browsers. Adding the new integrity attribute will ensure your application gains this security improvement as browsers support it.
 
