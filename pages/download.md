@@ -25,7 +25,7 @@ We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jq
 
 <a href="https://code.jquery.com/jquery-3.2.1.min.map" download>Download the map file for jQuery 3.2.1</a>
 
-You can also use the slim version:
+You can also use the slim build, which excludes the [ajax](https://api.jquery.com/category/ajax/) and [effects](https://api.jquery.com/category/effects/) modules:
 
 <a href="https://code.jquery.com/jquery-3.2.1.slim.min.js" download>Download the compressed, production jQuery 3.2.1 slim build</a>
 
