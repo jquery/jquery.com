@@ -8,7 +8,7 @@
 ## Downloading jQuery
 
 Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during development or debugging; the compressed file saves bandwidth and improves performance in production.
-You can also download a [sourcemap file](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) for use when debugging with a compressed file.
+You can also download a [sourcemap file](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) for use when debugging with a compressed file.
 The map file is _not_ required for users to run jQuery, it just improves the developer's debugger experience.
 As of jQuery 1.11.0/2.1.0 the `//# sourceMappingURL` comment is [not included](https://blog.jquery.com/2014/01/24/jquery-1-11-and-2-1-released/) in the compressed file.
 
@@ -33,7 +33,7 @@ You can also use the slim build, which excludes the [ajax](https://api.jquery.co
 
 <a href="https://code.jquery.com/jquery-3.3.1.slim.min.map" download>Download the map file for the jQuery 3.3.1 slim build</a>
 
-[jQuery 3.3.1 release notes](http://blog.jquery.com/2018/01/20/jquery-3-3-1-fixed-dependencies-in-release-tag/)
+[jQuery 3.3.1 release notes](https://blog.jquery.com/2018/01/20/jquery-3-3-1-fixed-dependencies-in-release-tag/)
 
 ## Downloading jQuery using npm
 jQuery is registered as [a package](https://www.npmjs.com/package/jquery) on [npm](https://www.npmjs.com/). You can install the latest version of jQuery with the command:
@@ -43,7 +43,7 @@ npm install jquery
 This will install jQuery in the `node_modules` directory. Within `node_modules/jquery/dist/` you will find an uncompressed release, a compressed release, and a map file.
 
 ## Downloading jQuery using Bower
-jQuery is also registered as a package with [Bower](http://bower.io). You can install the latest version of jQuery with the command:
+jQuery is also registered as a package with [Bower](https://bower.io). You can install the latest version of jQuery with the command:
 ```
 bower install jquery
 ```
