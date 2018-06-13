@@ -109,7 +109,7 @@ The following CDNs also host compressed and uncompressed versions of jQuery rele
 * [Google CDN](https://developers.google.com/speed/libraries/devguide#jquery)
 * [Microsoft CDN](https://www.asp.net/ajax/cdn#jQuery_Releases_on_the_CDN_0)
 * [CDNJS CDN](https://cdnjs.com/libraries/jquery/)
-* [jsDelivr CDN](https://www.jsdelivr.com/#!jquery)
+* [jsDelivr CDN](https://www.jsdelivr.com/package/npm/jquery)
 
 ## About the Code
 
