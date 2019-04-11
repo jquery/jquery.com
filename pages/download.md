@@ -71,9 +71,9 @@ There are two versions of Migrate. The first will help you update your pre-1.9 j
 
 The second version helps you update code to run on jQuery 3.0 or higher, *once you have used Migrate 1.x and upgraded to jQuery 1.9 or higher*:
 
-<a href="https://code.jquery.com/jquery-migrate-3.0.0.min.js" download>Download the compressed, production jQuery Migrate 3.0.0</a>
+<a href="https://code.jquery.com/jquery-migrate-3.0.1.min.js" download>Download the compressed, production jQuery Migrate 3.0.1</a>
 
-<a href="https://code.jquery.com/jquery-migrate-3.0.0.js" download>Download the uncompressed, development jQuery Migrate 3.0.0</a>
+<a href="https://code.jquery.com/jquery-migrate-3.0.1.js" download>Download the uncompressed, development jQuery Migrate 3.0.1</a>
 
 ## Cross-Browser Testing with jQuery
 
