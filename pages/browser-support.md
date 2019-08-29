@@ -7,26 +7,28 @@
 ### Desktop
 
 * Chrome: (Current - 1) and Current
-* Edge: (Current - 1) and Current
-* Firefox: (Current - 1) and Current, ESR
-* Internet Explorer: 9+
+* Edge: (Current - 1) and Current<sup>[1]</sup>
+* Firefox: (Current - 1) and Current, ESR<sup>[2]</sup>
+* Internet Explorer: 11
 * Safari: (Current - 1) and Current
 * Opera: Current
 
 ### Mobile
 
-* Stock browser on Android 4.0+<sup>[1]</sup>
-* Safari on iOS 7+<sup>[1]</sup>
-
-<small>[1]</small>: Workarounds for Android Browser 4.0-4.3 & iOS 7 are present in the code base, but we no longer actively test these versions. iOS 8 & newer versions are tested.
+* Chrome on Android: (Current - 1) and Current
+* Safari on iOS: (Current - 2), (Current - 1) and Current
 
 Any problem with jQuery in the above browsers should be reported as a bug in jQuery.
 
-<em>(Current - 1) and Current</em> denotes that we support the current stable version of the browser and the version that preceded it. For example, if the current version of a browser is 24.x, we support the 24.x and 23.x versions.
+<em>Current</em> denotes that we support the current stable version of the browser, <em>(Current - 1)</em> - that the version that preceded it is supported. For example, if we support <em>(Current - 2), (Current - 1) and Current</em> versions of a particular browser &amp; the current version of a browser is 24.x, we support the 24.x, 23.x and 22.x versions.
 
-Firefox ESR (Extended Support Release) is a Firefox version for use by organizations including schools, universities, businesses and others who need extended support for mass deployments. It is based on a regular release of Firefox and synced from the next regular Firefox every few releases - example ESR versions include Firefox 47, 52 & 60. At any given time there are at most two ESR versions available; jQuery supports both of them. See [the Mozilla site](https://www.mozilla.org/en-US/firefox/organizations/) for more information.
+If you need to support Edge Legacy, Internet Explorer 9-10, iOS 7+ (and not just 3 latest versions) or Android Browser in Android 4.0+, use <a href="https://code.jquery.com/jquery/#jquery-all-3.x">jQuery 3.x</a>.
 
-If you need to support older browsers like Internet Explorer 6-8, Opera 12.1x or Safari 5.1+, download [jQuery 1.12](https://releases.jquery.com/jquery/#jquery-all-1.x) instead.
+If, additionally, you need to support Internet Explorer 6-8, Opera 12.1x or Safari 5.1+, use <a href="https://releases.jquery.com/jquery/#jquery-all-1.x">jQuery 1.x</a>.
+
+<small>[1]</small> Only the Chromium-based Edge is supported, Edge Legacy & the old EdgeHTML-based version – is not.
+
+<small>[2]</small> Firefox ESR (Extended Support Release) is a Firefox version for use by organizations including schools, universities, businesses and others who need extended support for mass deployments. It is based on a regular release of Firefox and synced from the next regular Firefox every few releases - example ESR versions include Firefox 102, 115 &amp; 128. At any given time there are at most two ESR versions available; jQuery supports all of them. See <a href="https://www.mozilla.org/en-US/firefox/organizations/">the Mozilla site</a> for more information.
 
 -----
 
