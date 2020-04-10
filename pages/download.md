@@ -16,7 +16,7 @@ To locally download these files, right-click the link and select "Save as..." fr
 
 ### jQuery
 
-For help when upgrading jQuery, please see the [upgrade guide](https://jquery.com/upgrade-guide/) most relevant to your version.
+For help when upgrading jQuery, please see the [upgrade guide](/upgrade-guide/) most relevant to your version.
 We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate).
 
 <a href="https://code.jquery.com/jquery-3.4.1.min.js" download>Download the compressed, production jQuery 3.4.1</a>
