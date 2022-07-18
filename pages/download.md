@@ -77,7 +77,7 @@ The second version helps you update code to run on jQuery 3.0 or higher, *once y
 
 ## Cross-Browser Testing with jQuery
 
-Be sure to test web pages that use jQuery in all the browsers you want to support. The [Microsoft Developer Resources](https://developer.microsoft.com/en-us/microsoft-edge/) site makes available [virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) for testing many different versions of Internet Explorer. Older versions of other browsers can be found at [oldversion.com](http://oldversion.com/).
+Be sure to test web pages that use jQuery in all the browsers you want to support. The [Microsoft Developer Resources](https://developer.microsoft.com/en-us/microsoft-edge/) site makes available [virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) for testing many versions of Internet Explorer.
 
 ## jQuery Pre-Release Builds
 
