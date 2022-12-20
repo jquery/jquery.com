@@ -19,21 +19,21 @@ To locally download these files, right-click the link and select "Save as..." fr
 For help when upgrading jQuery, please see the [upgrade guide](/upgrade-guide/) most relevant to your version.
 We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate).
 
-<a href="https://code.jquery.com/jquery-3.6.2.min.js" download>Download the compressed, production jQuery 3.6.2</a>
+<a href="https://code.jquery.com/jquery-3.6.3.min.js" download>Download the compressed, production jQuery 3.6.3</a>
 
-<a href="https://code.jquery.com/jquery-3.6.2.js" download>Download the uncompressed, development jQuery 3.6.2</a>
+<a href="https://code.jquery.com/jquery-3.6.3.js" download>Download the uncompressed, development jQuery 3.6.3</a>
 
-<a href="https://code.jquery.com/jquery-3.6.2.min.map" download>Download the map file for jQuery 3.6.2</a>
+<a href="https://code.jquery.com/jquery-3.6.3.min.map" download>Download the map file for jQuery 3.6.3</a>
 
 You can also use the slim build, which excludes the [ajax](https://api.jquery.com/category/ajax/) and [effects](https://api.jquery.com/category/effects/) modules:
 
-<a href="https://code.jquery.com/jquery-3.6.2.slim.min.js" download>Download the compressed, production jQuery 3.6.2 slim build</a>
+<a href="https://code.jquery.com/jquery-3.6.3.slim.min.js" download>Download the compressed, production jQuery 3.6.3 slim build</a>
 
-<a href="https://code.jquery.com/jquery-3.6.2.slim.js" download>Download the uncompressed, development jQuery 3.6.2 slim build</a>
+<a href="https://code.jquery.com/jquery-3.6.3.slim.js" download>Download the uncompressed, development jQuery 3.6.3 slim build</a>
 
-<a href="https://code.jquery.com/jquery-3.6.2.slim.min.map" download>Download the map file for the jQuery 3.6.2 slim build</a>
+<a href="https://code.jquery.com/jquery-3.6.3.slim.min.map" download>Download the map file for the jQuery 3.6.3 slim build</a>
 
-[jQuery 3.6.2 blog post with release notes](https://blog.jquery.com/2022/12/13/jquery-3-6-2-released/)
+[jQuery 3.6.3 blog post with release notes](https://blog.jquery.com/2022/12/20/jquery-3-6-3-released-a-quick-selector-fix/)
 
 ## Downloading jQuery using npm or Yarn
 jQuery is registered as [a package](https://www.npmjs.com/package/jquery) on [npm](https://www.npmjs.com/). You can install the latest version of jQuery with the npm CLI command:
@@ -55,7 +55,7 @@ This will install jQuery to Bower's install directory, the default being `bower_
 
 The jQuery Bower package contains additional files besides the default distribution. In most cases you can ignore these files, however if you wish to download the default release on its own you can use Bower to install jQuery from one of the above urls instead of the registered package. For example, if you wish to install just the compressed jQuery file, you can install just that file with the following command:
 ```
-bower install https://code.jquery.com/jquery-3.6.2.min.js
+bower install https://code.jquery.com/jquery-3.6.3.min.js
 ```
 
 ## jQuery Migrate Plugin
