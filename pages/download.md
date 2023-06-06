@@ -75,10 +75,6 @@ The second version helps you update code to run on jQuery 3.0 or higher, *once y
 
 <a href="https://code.jquery.com/jquery-migrate-3.4.0.js" download>Download the uncompressed, development jQuery Migrate 3.4.0</a>
 
-## Cross-Browser Testing with jQuery
-
-Be sure to test web pages that use jQuery in all the browsers you want to support. The [Microsoft Developer Resources](https://developer.microsoft.com/en-us/microsoft-edge/) site makes available [virtual machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) for testing many versions of Internet Explorer.
-
 ## jQuery Pre-Release Builds
 
 The jQuery team is constantly working to improve the code. Each commit to the Github repo generates a work-in-progress version of the code that we update on the jQuery CDN. _These versions are sometimes unstable and never suitable for production sites._ We recommend they be used to determine whether a bug has already been fixed when reporting bugs against released versions, or to see if new bugs have been introduced.
