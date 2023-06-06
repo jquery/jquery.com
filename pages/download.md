@@ -79,7 +79,7 @@ The second version helps you update code to run on jQuery 3.0 or higher, *once y
 
 The jQuery team is constantly working to improve the code. Each commit to the Github repo generates a work-in-progress version of the code that we update on the jQuery CDN. _These versions are sometimes unstable and never suitable for production sites._ We recommend they be used to determine whether a bug has already been fixed when reporting bugs against released versions, or to see if new bugs have been introduced.
 
-<a href="https://code.jquery.com/jquery-git.js" download>Download the work-in-progress jQuery build</a>
+<a href="https://releases.jquery.com/git/jquery-git.js" download>Download the work-in-progress jQuery build</a>
 
 ## Using jQuery with a CDN
 
@@ -90,11 +90,11 @@ if the visitor to your webpage has already downloaded a copy of jQuery from the 
 
 The jQuery CDN supports [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI) which allows the browser to verify that the files being delivered have not been modified. This [specification](https://www.w3.org/TR/SRI/) is currently being implemented by browsers. Adding the new integrity attribute will ensure your application gains this security improvement as browsers support it.
 
-To use the jQuery CDN, just reference the file in the script tag directly from the jQuery CDN domain. You can get the complete script tag, including Subresource Integrity attribute, by visiting https://code.jquery.com and clicking on the version of the file that you want to use. Copy and paste that tag into your HTML file.
+To use the jQuery CDN, just reference the file in the script tag directly from the jQuery CDN domain. You can get the complete script tag, including Subresource Integrity attribute, by visiting https://releases.jquery.com and clicking on the version of the file that you want to use. Copy and paste that tag into your HTML file.
 
 Starting with jQuery 1.9, [sourcemap files](https://blog.jquery.com/2013/01/09/jquery-1-9-rc1-and-migrate-rc1-released/#sourcemaps) are available on the jQuery CDN. However, as of version 1.10.0/2.1.0 the compressed jQuery no longer includes the sourcemap comment in CDN copies because it requires the uncompressed file and sourcemap file to be placed at the same location as the compressed file. If you are maintaining local copies and can control the locations all three files, you can add the sourcemap comment to the compressed file for easier debugging.
 
-To see all available files and versions, visit [https://code.jquery.com](https://code.jquery.com)
+To see all available files and versions, visit [https://releases.jquery.com](https://releases.jquery.com)
 
 ### Other CDNs
 
@@ -140,5 +140,5 @@ The README file for a specific version will have instructions for building that 
 
 ## Past Releases
 
-All past releases can be found on the [jQuery CDN](https://code.jquery.com).
+All past releases can be found on the [jQuery CDN](https://releases.jquery.com).
 
