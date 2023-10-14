@@ -2,7 +2,7 @@
 	"title": "License"
 }</script>
 
-**Note:** For the purposes of this document, the term "Project" will refer to any [JS Foundation](https://js.foundation) project using the MIT license **AND** referencing this document in the header of the distributed Project code or Project website source code.
+**Note:** For the purposes of this document, the term "Project" will refer to any [OpenJS Foundation](https://openjsf.org/projects/) project using the MIT license **AND** referencing this document in the header of the distributed Project code or Project website source code.
 
 ## Source Code
 
@@ -22,6 +22,6 @@ CC0 is even more permissive than the MIT license, allowing you to use the code i
 
 The content on a Project web site referencing this document in its header is released under the terms of the license specified in the website's repository or if not specified, under the [MIT license](https://tldrlegal.com/license/mit-license).
 
-**The design, layout, and look-and-feel of JS Foundation project web sites are not licensed for use and may not be used on any site, personal or commercial, without prior written consent from the JS Foundation**.
+**The design, layout, and look-and-feel of a Project website is not licensed for use and may not be used on any site, personal or commercial, without prior written consent from the OpenJS Foundation**.
 
-For further information regarding JS Foundation licensing and intellectual property, please review the [JS Foundation IP Policy](https://js.foundation/pdf/ip-policy.pdf).
+For information regarding OpenJS Foundation trademarks, please see [Trademark Policy](https://trademark-policy.openjsf.org/) and [Trademark List](https://trademark-list.openjsf.org/).
