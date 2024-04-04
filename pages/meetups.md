@@ -6,9 +6,9 @@ Meetups are a great way to meet other community members, expand your knowledge,
 socialize, and show off what you've been working on.
 
 Thousands of developers get together every month all over the world to share
-their knowledge. Check out meetup.com to find a [jQuery](https://jquery.meetup.com/)
-or [JavaScript](https://javascript.meetup.com/) meetup near you. Can't find a
-meetup near you? Consider [creating your own meetup](https://www.meetup.com/create/)!
+their knowledge. Check out meetup.com to find a
+[jQuery or JavaScript related meetup]([https://jquery.meetup.com/](https://www.meetup.com/find/))
+near you.
 
-Looking for larger events? We have plenty of
+Looking for larger events? We have 
 [trainings and conferences](https://events.jquery.org/) all over the world too!
