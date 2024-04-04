@@ -69,6 +69,6 @@ For guidance on branding and trademark usage, visit <https://brand.jquery.org/>.
 
 ## Found a bug?
 
-For reporting bugs in libraries, documentation, or content, the project's GitHub issues tracker should be used. All jQuery projects can be found at https://github.com/jquery
+For reporting bugs in libraries, documentation, or content, the project's GitHub issue tracker should be used. All jQuery projects can be found at https://github.com/jquery
 
 Still haven't found what you're looking for? Please feel free to contact: [info@jquery.com](mailto:info@jquery.com)
