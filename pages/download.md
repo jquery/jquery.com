@@ -20,7 +20,7 @@ The slim build is a smaller version, that excludes the [ajax](https://api.jquery
 * [Download the uncompressed development version of the jQuery 3.7.1 slim build](https://code.jquery.com/jquery-3.7.1.slim.js)
 * [Download the map for the jQuery 3.7.1 slim build](https://code.jquery.com/jquery-3.7.1.slim.min.map)
 
-The uncompressed version is best used during development or debugging; the compressed file saves bandwidth and improves performance in production. You can download the [source map](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) file to help with debugging the compressed production version. The source map is _not_ required for end-users to run jQuery, it just improves the developer's debugging experience. As of jQuery 1.11/2.1, we [no longer link source maps](https://blog.jquery.com/2014/01/24/jquery-1-11-and-2-1-released/) to compressed releases by default.
+The uncompressed version is best used during development or debugging; the compressed file saves bandwidth and improves performance in production. You can download the [source map](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) file to help with debugging the compressed production version. The source map is _not_ required for end-users to run jQuery; it is a tool to help improve a developer's debugging experience. As of jQuery 1.11/2.1, we [no longer link source maps](https://blog.jquery.com/2014/01/24/jquery-1-11-and-2-1-released/) to compressed releases by default.
 
 Browse the jQuery CDN at **[releases.jquery.com](https://releases.jquery.com)** for a full list of assets, including older and historical versions.
 
@@ -68,7 +68,7 @@ _These versions are sometimes unstable and never suitable for production sites._
 
 ## [jQuery CDN](https://releases.jquery.com)
 
-To use the jQuery CDN, just reference the file in the script tag directly from the jQuery CDN domain. You can get the complete script tag, including Subresource Integrity attribute, by visiting https://releases.jquery.com and clicking on the version of the file that you want to use. Copy and paste that tag into your HTML file.
+To use the jQuery CDN, reference the file in the script tag directly from the jQuery CDN domain. You can get the complete script tag, including Subresource Integrity attribute, by visiting https://releases.jquery.com and clicking on the version of the file that you want to use. Copy and paste that tag into your HTML file.
 
 The jQuery CDN supports [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI) ([specification](https://www.w3.org/TR/SRI/)) which allows the browser to verify that the files being delivered have not been modified. Adding the new integrity attribute will ensure your application gains this security improvement in supporting browsers.
 
@@ -91,7 +91,7 @@ Note that **there may be delays between a jQuery release and its availability th
 
 **jQuery is provided under the <a href="https://jquery.com/license/">MIT license</a>.**
 
-The code is hosted and developed in the [jQuery GitHub repository](https://github.com/jquery/jquery). If you've spotted some areas of code that could be improved, feel free to [report a bug](https://forum.jquery.com/developing-jquery-core). If you'd like to participate in developing jQuery, peruse our [contributor site](https://contribute.jquery.org) for more information.
+The code is hosted and developed in the [jQuery GitHub repository](https://github.com/jquery/jquery). If you've spotted some areas of code that could be improved, feel free to [report a bug](https://contribute.jquery.org/bug-reports/). If you'd like to participate in developing jQuery, peruse our [contributor site](https://contribute.jquery.org) for more information.
 
 Feedback about a jQuery plugin should be directed to the plugin author, not the jQuery team.
 
