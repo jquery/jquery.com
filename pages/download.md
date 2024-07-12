@@ -40,8 +40,8 @@ When upgrading from a pre-1.9 jQuery version to jQuery 1.9 or upto jQuery 3.0, f
 
 When migrating from jQuery 3.x to a later jQuery 3.x version, use jQuery Migrate 3.x instead:
 
-* <a href="https://code.jquery.com/jquery-migrate-3.4.0.min.js">Download jQuery Migrate 3.4.0</a> (compressed production version)
-* <a href="https://code.jquery.com/jquery-migrate-3.4.0.js">Download the uncompressed, development jQuery Migrate 3.4.0</a>
+* <a href="https://code.jquery.com/jquery-migrate-3.5.0.min.js">Download jQuery Migrate 3.5.0</a> (compressed production version)
+* <a href="https://code.jquery.com/jquery-migrate-3.5.0.js">Download the uncompressed, development jQuery Migrate 3.5.0</a>
 
 Use the _compressed production_ version to simply restore compatibility issues without changing any application code.
 
