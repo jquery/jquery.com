@@ -7,6 +7,8 @@
 
 The jQuery upgrade guides provide information on all breaking changes and some notable changes in pinnacle versions of jQuery. Overall, jQuery has had very strong backwards compatibility throughout its history. However, these breaking changes were deemed necessary to address security concerns, fix bugs that could not be fixed without behavior changes, or to adapt to the introduction of modern APIs on the web. Most of the breaking changes listed should not apply to the majority of users, but these guides add some context and explanation for each change.
 
+### [4.0 Upgrade Guide](/upgrade-guide/4.0/)
+
 ### [3.5 Upgrade Guide](/upgrade-guide/3.5/)
 
 ### [3.0 Upgrade Guide](/upgrade-guide/3.0/)
