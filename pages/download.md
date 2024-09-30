@@ -26,8 +26,8 @@ Browse the jQuery CDN at **[releases.jquery.com](https://releases.jquery.com)** 
 
 ### Upgrade
 
-For help when upgrading jQuery, read the [upgrade guide](/upgrade-guide/).
-We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate)
+For help when upgrading jQuery, read the [upgrade guides](/upgrade-guide/).
+We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate).
 
 ### jQuery Migrate Plugin
 
