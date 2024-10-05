@@ -4,7 +4,7 @@
 }
 </script>
 
-## Version Support Status
+## Supported versions
 
 We support only the latest version of jQuery. The 1.x and 2.x branches are no longer supported.
 
@@ -12,11 +12,13 @@ jQuery 3.x is the current version branch of jQuery.
 
 jQuery 4.0 is in beta. Once jQuery 4.0 is released, we will provide security patches and bug fixes on the 3.x branch for a limited time.
 
-#### Still on an old version? Here are your options
+### Unsupported versions
 
-* Upgrade to the latest version of jQuery. If possible, the best solution is to upgrade as it will include all features, bug fixes, security patches, and improvements. The [jQuery Migrate Plugin](https://github.com/jquery/jquery-migrate) and [upgrade guides](/upgrade-guide) are ready to help with upgrading.
-* If migrating is not an option but you'd like to include all security patches, you can obtain [commercial security support](#commercial-support) for your applications to keep them secure.
-* If your application has no security requirements, then you can stay on one of the unsupported versions of jQuery, but be aware that this can come with multiple risks.
+When using a version earlier than the latest version, there are a few options:
+
+* [Upgrade](/download#upgrade) to the latest version of jQuery. The best solution is to upgrade as it will include all features, bug fixes, security patches, and improvements. The [jQuery Migrate Plugin](https://github.com/jquery/jquery-migrate) and [upgrade guides](/upgrade-guide) are available to assist with upgrading.
+* Continue using an older version of jQuery, but include all security patches through [commercial security support](#commercial-support).
+* Continue using an older version of jQuery without security patches. **However, this can come with multiple risks.**
 
 ## Community support
 
@@ -45,7 +47,7 @@ StackOverflow is a great place to ask questions and find support for all jQuery 
 
 The following companies offer commercial support services for jQuery.
 
-[HeroDevs](https://www.herodevs.com/support/jquery-nes?utm_source=jQuery&utm_medium=link&utm_campaign=eol_support_jQuery) offers security and compatibility support for EOL versions of jQuery through the [OpenJS Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) and is an approved commercial support vendor. You can find out more about their Never Ending Support options [here](https://www.herodevs.com/support/jquery-nes?utm_source=jQuery&utm_medium=link&utm_campaign=eol_support_jQuery).
+[HeroDevs](https://www.herodevs.com/support/jquery-nes?utm_source=jQuery&utm_medium=link&utm_campaign=eol_support_jQuery) offers security and compatibility support for EOL versions of jQuery through the [OpenJS Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) and is an approved commercial support vendor. Find out more about their [Never Ending Support options](https://www.herodevs.com/support/jquery-nes?utm_source=jQuery&utm_medium=link&utm_campaign=eol_support_jQuery).
 
 -------
 

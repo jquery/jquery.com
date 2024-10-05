@@ -33,7 +33,7 @@ We also recommend using the [jQuery Migrate plugin](https://github.com/jquery/jq
 
 The [jQuery Migrate plugin](https://github.com/jquery/jquery-migrate/#readme) simplifies upgrading from older versions of jQuery. The plugin restores deprecated features and behaviors so that older code will still run properly on newer versions of jQuery.
 
-When upgrading from a pre-1.9 jQuery version to jQuery 1.9 or upto jQuery 3.0, first use jQuery Migrate 1.x:
+When upgrading from a pre-1.9 jQuery version to jQuery 1.9 or up to jQuery 3.0, first use jQuery Migrate 1.x:
 
 * <a href="https://code.jquery.com/jquery-migrate-1.4.1.min.js">Download jQuery Migrate 1.4.1</a> (compressed production version)
 * <a href="https://code.jquery.com/jquery-migrate-1.4.1.js">Download the uncompressed, development jQuery Migrate 1.4.1</a>
@@ -43,11 +43,12 @@ When migrating from jQuery 3.x to a later jQuery 3.x version, use jQuery Migrate
 * <a href="https://code.jquery.com/jquery-migrate-3.5.0.min.js">Download jQuery Migrate 3.5.0</a> (compressed production version)
 * <a href="https://code.jquery.com/jquery-migrate-3.5.0.js">Download the uncompressed, development jQuery Migrate 3.5.0</a>
 
-Use the _compressed production_ version to simply restore compatibility issues without changing any application code.
+Use the _compressed production_ version to restore compatibility issues without changing any application code.
 
 Use the _uncompressed development_ version to additionally diagnose and help migrate compatibility issues, through helpful warnings on the console that identify how to transition your application code.
 
 ## Downloading jQuery using npm or Yarn
+
 jQuery is published on [npm](https://www.npmjs.com/) under the [jquery package](https://www.npmjs.com/package/jquery). You can install the latest version of jQuery with the npm CLI:
 ```
 npm install jquery
