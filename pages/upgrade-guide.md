@@ -5,7 +5,7 @@
 
 ## jQuery Upgrade Guides
 
-The jQuery Upgrade Guides can be helpful when you're looking for more details on a breaking change, or you just want to see the full list of breaking changes for each version. There are upgrade guides for jQuery 1.9, 3.0 and 3.5 that list all of the breaking changes that happened in those releases. Most of the breaking changes listed will probably not apply to your code, but these guides add some context and explanation for each change.
+The jQuery upgrade guides provide information on all breaking changes and some notable changes in pinnacle versions of jQuery. Overall, jQuery has had very strong backwards compatibility throughout its history. However, these breaking changes were deemed necessary to address security concerns, fix bugs that could not be fixed without behavior changes, or to adapt to the introduction of modern APIs on the web. Most of the breaking changes listed should not apply to the majority of users, but these guides add some context and explanation for each change.
 
 ### [3.5 Upgrade Guide](/upgrade-guide/3.5/)
 
