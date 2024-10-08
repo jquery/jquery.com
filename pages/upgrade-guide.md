@@ -19,7 +19,7 @@ The jQuery Team provides the [jQuery Migrate plugin](https://github.com/jquery/j
 
 There are two versions of jQuery Migrate: [1.x](https://github.com/jquery/jquery-migrate/tree/1.x-stable) and [3.x](https://github.com/jquery/jquery-migrate) (there is no Migrate 2.x). Only one version should be used at a time, but you may need to use both in succession if upgrading from a jQuery version that predates jQuery 1.9.
 
-For example, if your current jQuery version is 1.4.4, first use jQuery Migrate 1.x to upgrade to jQuery 1.12.4 and then use jQuery Migrate 3.x to upgrade to the latest jQuery (3.7.1, as of this writing). If your current version is 1.9 or later, you only need to use jQuery Migrate 3.x to upgrade to the latest jQuery.
+For example, if your current jQuery version is 1.4.4, first upgrade to jQuery 1.12.4 with jQuery Migrate 1.x and then upgrade to the latest jQuery with jQuery Migrate 3.x. If your current version is 1.9 or later, you can update straight to the latest jQuery with jQuery Migrate 3.x.
 
 #### Using jQuery Migrate
 
