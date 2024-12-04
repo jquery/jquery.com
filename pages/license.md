@@ -14,7 +14,7 @@ You are free to use the Project in any other project (even commercial projects) 
 
 ## Sample Code
 
-All demos and examples, whether in a Project's repository or displayed on a Project site, are released under the terms of the license as specified in the relevant repository. Many Projects choose to release their sample code under the terms of [CC0](https://tldrlegal.com/l/cc0-1.0).
+All demos and examples, whether in a Project's repository or displayed on a Project site, are released under the terms of the license as specified in the relevant repository. Many Projects choose to release their sample code under the terms of [CC0](https://www.tldrlegal.com/license/creative-commons-cc0-1-0-universal).
 
 CC0 is even more permissive than the MIT license, allowing you to use the code in any manner you want, without any copyright headers, notices, or other attribution.
 
