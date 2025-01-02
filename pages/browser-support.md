@@ -18,7 +18,7 @@
 * Stock browser on Android 4.0+<sup>[1]</sup>
 * Safari on iOS 7+<sup>[1]</sup>
 
-<small>[1]</small>: Workarounds for Android Browser 4.0-4.3 & iOS 7 are present in the code base, but we no longer actively test these versions. iOS 8 & newer versions are tested.
+<small>[1]</small>: Workarounds for Android Browser 4.0-4.3, iOS 7 & iOS 10 are present in the code base, but we no longer actively test these versions. iOS 8, iOS 9 as well as iOS 11 & newer versions are tested.
 
 Any problem with jQuery in the above browsers should be reported as a bug in jQuery.
 
