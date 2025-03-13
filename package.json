@@ -1,7 +1,7 @@
 {
   "name": "jquery.com",
   "private": true,
-  "version": "3.3.24",
+  "version": "3.3.25",
   "dependencies": {
     "async": "3.2.2",
     "grunt": "1.5.3",
