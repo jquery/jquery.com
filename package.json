@@ -3,8 +3,7 @@
   "private": true,
   "version": "3.3.26",
   "dependencies": {
-    "async": "3.2.2",
-    "grunt": "1.5.3",
+    "grunt": "1.6.1",
     "grunt-jquery-content": "3.3.1"
   }
 }
