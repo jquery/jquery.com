@@ -8,9 +8,9 @@
 
 We support only the latest version of jQuery. The 1.x and 2.x branches are no longer supported.
 
-jQuery 3.x is the current version branch of jQuery.
+jQuery 3.x will only receive critical security patches and bug fixes. We encourage all users to upgrade to the latest version of jQuery 4.x.
 
-jQuery 4.0 is in beta. Once jQuery 4.0 is released, we will provide security patches and bug fixes on the 3.x branch for a limited time.
+jQuery 4.x is the current version branch of jQuery.
 
 ### Unsupported versions
 
