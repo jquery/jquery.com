@@ -12,7 +12,7 @@ Download the compressed, production version:
 
 * [Download the uncompressed development version of jQuery 4.0.0](https://code.jquery.com/jquery-4.0.0.js)
 * [Download the map file for jQuery 4.0.0](https://code.jquery.com/jquery-4.0.0.min.map)
-* [jQuery 4.0.0 blog post with release notes](https://blog.jquery.com/2023/08/28/jquery-3-7-1-released-reliable-table-row-dimensions/)
+* [jQuery 4.0.0 blog post with release notes](https://blog.jquery.com/2026/01/17/jquery-4-0-0/)
 
 The slim build is a smaller version, that excludes the [ajax](https://api.jquery.com/category/ajax/) and [effects](https://api.jquery.com/category/effects/) modules:
 
