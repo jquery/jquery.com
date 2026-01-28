@@ -1,6 +1,8 @@
-<script>{
+<script>
+{
 	"title": "Download jQuery"
-}</script>
+}
+</script>
 
 ## Latest version
 

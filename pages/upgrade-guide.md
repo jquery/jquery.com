@@ -1,7 +1,9 @@
-<script>{
+<script>
+{
 	"title": "jQuery Core Upgrade Guides",
 	"noHeadingLinks": true
-}</script>
+}
+</script>
 
 ## jQuery Upgrade Guides
 

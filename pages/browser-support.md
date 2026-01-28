@@ -1,6 +1,8 @@
-<script>{
+<script>
+{
 	"title": "Browser Support"
-}</script>
+}
+</script>
 
 ## Current Active Support
 
