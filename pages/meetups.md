@@ -1,6 +1,8 @@
-<script>{
+<script>
+{
 	"title": "jQuery Meetups"
-}</script>
+}
+</script>
 
 Meetups are a great way to meet other community members, expand your knowledge,
 socialize, and show off what you've been working on.

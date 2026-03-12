@@ -1,6 +1,8 @@
-<script>{
+<script>
+{
 	"title": "License"
-}</script>
+}
+</script>
 
 **Note:** For the purposes of this document, the term "Project" will refer to any [OpenJS Foundation](https://openjsf.org/projects/) project using the MIT license **AND** referencing this document in the header of the distributed Project code or Project website source code.
 
