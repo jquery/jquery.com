@@ -4,6 +4,6 @@
   "version": "4.0.3",
   "dependencies": {
     "grunt": "1.6.1",
-    "grunt-jquery-content": "3.3.1"
+    "grunt-jquery-content": "3.3.3"
   }
 }
