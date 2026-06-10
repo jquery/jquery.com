@@ -1,9 +1,6 @@
 <script>
 {
-	"title": "License",
-	"termSlugs": {
-		"category": [ "meta" ]
-	}
+	"title": "License"
 }
 </script>
 

@@ -1,9 +1,6 @@
 <script>
 {
-	"title": "Browser Support",
-	"termSlugs": {
-		"category": [ "meta" ]
-	}
+	"title": "Browser Support"
 }
 </script>
 
