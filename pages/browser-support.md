@@ -1,6 +1,10 @@
 <script>
 {
-	"title": "Browser Support"
+	"title": "Browser Support",
+	"menuOrder": -30,
+	"termSlugs": {
+		"category": [ "meta" ]
+	}
 }
 </script>
 
