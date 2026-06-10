@@ -1,6 +1,9 @@
 <script>
 {
-	"title": "jQuery Support"
+	"title": "jQuery Support",
+	"termSlugs": {
+		"category": [ "meta" ]
+	}
 }
 </script>
 

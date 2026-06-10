@@ -1,6 +1,9 @@
 <script>
 {
-	"title": "Download jQuery"
+	"title": "Download jQuery",
+	"termSlugs": {
+		"category": [ "meta" ]
+	}
 }
 </script>
 

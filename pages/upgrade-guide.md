@@ -1,6 +1,9 @@
 <script>
 {
 	"title": "jQuery Core Upgrade Guides",
+	"termSlugs": {
+		"category": [ "meta" ]
+	},
 	"noHeadingLinks": true
 }
 </script>
