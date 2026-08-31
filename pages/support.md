@@ -1,6 +1,10 @@
 <script>
 {
-	"title": "jQuery Support"
+	"title": "jQuery Support",
+	"menuOrder": -20,
+	"termSlugs": {
+		"category": [ "meta" ]
+	}
 }
 </script>
 

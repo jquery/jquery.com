@@ -1,6 +1,10 @@
 <script>
 {
 	"title": "jQuery Core Upgrade Guides",
+	"menuOrder": -10,
+	"termSlugs": {
+		"category": [ "meta" ]
+	},
 	"noHeadingLinks": true
 }
 </script>

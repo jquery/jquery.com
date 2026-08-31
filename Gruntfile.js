@@ -16,6 +16,11 @@ grunt.initConfig({
 	})()
 });
 
-grunt.registerTask( "build", [ "build-posts", "build-resources" ] );
+grunt.registerTask( "copy-taxonomies", function() {
+	grunt.file.copy( "taxonomies.json",
+		grunt.config( "wordpress.dir" ) + "/taxonomies.json" );
+});
+
+grunt.registerTask( "build", [ "build-posts", "build-resources", "copy-taxonomies" ] );
 
 };

@@ -1,6 +1,10 @@
 <script>
 {
-	"title": "Download jQuery"
+	"title": "Download jQuery",
+	"menuOrder": -40,
+	"termSlugs": {
+		"category": [ "meta" ]
+	}
 }
 </script>
 
