@@ -49,9 +49,12 @@ StackOverflow is a great place to ask questions and find support for all jQuery 
 
 ## Commercial support
 
-The following companies offer commercial support services for jQuery.
+Organizations that need support for older or unsupported versions of jQuery can work with commercial providers offering services such as security fixes, compatibility support, and extended lifecycle maintenance.
 
-[HeroDevs](https://www.herodevs.com/support/jquery-nes?utm_source=jQuery&utm_medium=link&utm_campaign=eol_support_jQuery) offers security and compatibility support for EOL versions of jQuery through the [OpenJS Ecosystem Sustainability Program](https://openjsf.org/ecosystem-sustainability-program) and is an approved commercial support vendor. Find out more about their [Never Ending Support options](https://www.herodevs.com/support/jquery-nes?utm_source=jQuery&utm_medium=link&utm_campaign=eol_support_jQuery).
+The OpenJS Foundation’s [Ecosystem Sustainability Program (ESP)](https://openjsf.org/partners) provides a framework for commercial support around end-of-life open source software. The program is non-exclusive and open to qualifying providers that support OpenJS projects.
+
+* **HeroDevs** provides security and compatibility support for end-of-life versions of jQuery through its Never Ending Support offering. [Learn more about HeroDevs support for jQuery.](https://www.herodevs.com/support/jquery-nes?utm_source=jQuery&utm_medium=link&utm_campaign=eol_support_jQuery)
+* **TuxCare** provides Endless Lifecycle Support for unsupported jQuery versions, including security fixes for legacy releases and their dependencies. TuxCare joined the OpenJS Ecosystem Sustainability Program in 2026. [Learn more about TuxCare support for jQuery.](https://tuxcare.com/lp/click-jquery-support/)
 
 -------
 
