@@ -14,17 +14,17 @@ To locally download these files, right-click the link and select "Save as..." fr
 
 Download the compressed, production version:
 
-<a class="button db" href="https://code.jquery.com/jquery-4.0.0.min.js">Download jQuery 4.0.0</a>
+<a class="button db" href="https://code.jquery.com/jquery-4.1.0.min.js">Download jQuery 4.1.0</a>
 
-* [Download the uncompressed development version of jQuery 4.0.0](https://code.jquery.com/jquery-4.0.0.js)
-* [Download the map file for jQuery 4.0.0](https://code.jquery.com/jquery-4.0.0.min.map)
-* [jQuery 4.0.0 blog post with release notes](https://blog.jquery.com/2026/01/17/jquery-4-0-0/)
+* [Download the uncompressed development version of jQuery 4.1.0](https://code.jquery.com/jquery-4.1.0.js)
+* [Download the map file for jQuery 4.1.0](https://code.jquery.com/jquery-4.1.0.min.map)
+* [jQuery 4.1.0 blog post with release notes](https://blog.jquery.com/2026/11/17/jquery-4-1-0-and-3-8-0-released-passing-the-torch/)
 
 The slim build is a smaller version, that excludes the [ajax](https://api.jquery.com/category/ajax/) and [effects](https://api.jquery.com/category/effects/) modules:
 
-* [Download jQuery 4.0.0 slim build](https://code.jquery.com/jquery-4.0.0.slim.min.js)
-* [Download the uncompressed development version of the jQuery 4.0.0 slim build](https://code.jquery.com/jquery-4.0.0.slim.js)
-* [Download the map for the jQuery 4.0.0 slim build](https://code.jquery.com/jquery-4.0.0.slim.min.map)
+* [Download jQuery 4.1.0 slim build](https://code.jquery.com/jquery-4.1.0.slim.min.js)
+* [Download the uncompressed development version of the jQuery 4.1.0 slim build](https://code.jquery.com/jquery-4.1.0.slim.js)
+* [Download the map for the jQuery 4.1.0 slim build](https://code.jquery.com/jquery-4.1.0.slim.min.map)
 
 The uncompressed version is best used during development or debugging; the compressed file saves bandwidth and improves performance in production. You can download the [source map](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) file to help with debugging the compressed production version. The source map is _not_ required for end-users to run jQuery; it is a tool to help improve a developer's debugging experience. As of jQuery 1.11/2.1, we [no longer link source maps](https://blog.jquery.com/2014/01/24/jquery-1-11-and-2-1-released/) to compressed releases by default.
 
