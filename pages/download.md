@@ -49,6 +49,11 @@ When migrating from jQuery 3.x to a later jQuery 3.x version, use jQuery Migrate
 * <a href="https://code.jquery.com/jquery-migrate-3.6.0.min.js">Download jQuery Migrate 3.6.0</a> (compressed production version)
 * <a href="https://code.jquery.com/jquery-migrate-3.6.0.js">Download the uncompressed, development jQuery Migrate 3.6.0</a>
 
+When migrating from jQuery 3.x to jQuery 4.x, or from jQuery 4.x to a later jQuery 4.x version, use jQuery Migrate 4.x:
+
+* <a href="https://code.jquery.com/jquery-migrate-4.0.2.min.js">Download jQuery Migrate 4.0.2</a> (compressed production version)
+* <a href="https://code.jquery.com/jquery-migrate-4.0.2.js">Download the uncompressed, development jQuery Migrate 4.0.2</a>
+
 Use the _compressed production_ version to restore compatibility issues without changing any application code.
 
 Use the _uncompressed development_ version to additionally diagnose and help migrate compatibility issues, through helpful warnings on the console that identify how to transition your application code.
